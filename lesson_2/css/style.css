@@ -1,26 +1,24 @@
-.test{
+.introduction{
    width: 100%;
    text-align:  center;
    }
 
-.center{
+.list{
    display: inline-block;
-}
+   
+   }
+
 li{
-   text-align: left;
-}
-ul.center{
+   text-align:left;
    font-size: 20px;
 }
 p{
    text-align:justify;
 }
 h1,h2,h3,h4,h5,h6{text-align: center;
-   t
+   
 }
-.block2{
-   font-size: 20px;
-}
+
 span{
    color:green;
 }
@@ -28,16 +26,7 @@ span{
    font-size: 20px;
    text-align: center;
 }
-.list{
-   width: 100%;
-   text-align:  center;
-   }
-   .link{
-      display: inline-block;
-   }
-ol.link{
-   font-size: 20px;
-}
+
 h3,h4,h5,h6{
    font-size: 20px;
 }
@@ -52,13 +41,35 @@ h3,h4,h5,h6{
    width: 78px;
    height: 78px;
 }
-.image{
-   text-align: center;
-}
 .netflix{
    text-align: center;
 }
 .netflix-icon{
    width: 76px;
    height: 76px;
+}
+.heroes-of-magic{
+   text-align: center;
+}
+.magic{
+   text-align: center;
+}
+.connections{
+   width: 100%;
+   text-align:  center;
+}
+p{
+   font-size: 20px;
+}
+img{
+   width:60%;
+ height: 60%;
+}
+.nizhin{
+   width: 76px;
+   height: 76px;
+
+}
+.good p{
+   text-align: center;
 }

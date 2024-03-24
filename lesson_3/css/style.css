@@ -1,0 +1,109 @@
+@import url("reset.css");
+  *{
+   color: rgba(230, 247, 247, 0);
+}
+
+h1{
+   font-size: 80px;
+   color: green;
+   text-align: center;
+}
+
+img{
+      width: 70%;
+   }
+   .kobzar img{
+      width: 40%;
+   }
+
+
+p{ color: black;
+
+      }
+h2{
+   color: green;
+   font-size: 25px;
+}
+h3{
+   font-size: 25px;
+}
+
+a{
+   color:red;
+}
+.block .picture, .block{
+   text-align: center;
+   color: rgb(232, 6, 205);
+}
+.blue{
+   background-color: rgb(111, 168, 233);
+   font-size: 30px;
+   color: rgba(0, 0, 0, 0.493);
+   }
+.yellow{
+   background-color:yellow;
+   font-size: 30px;
+   color: rgba(0, 0, 0, 0.493);
+}
+.green{
+   background-color: rgb(120, 231, 120);
+   font-size: 30px;
+   color: rgba(0, 0, 0, 0.493);
+}
+
+   #color{
+   color: rgba(236, 156, 7, 0.945);
+}
+   #struggle-2{
+      color: rgba(200, 25, 159, 0.132);
+   }
+   .chapter-2{
+      color: azure;
+   }
+
+   [class*="ext"]
+{
+color: rgb(10, 17, 218);
+font-style: italic;
+}
+
+ div.block{
+   color: rgb(184, 184, 21);
+   font-size: 20px;
+}
+.page__text.page{
+   color: orangered;
+}
+
+.block a{
+   color: rgba(16, 73, 5, 0.244);
+}
+ .block p{ 
+   color: rgb(93, 33, 197);
+   font-style: italic; } 
+
+.block .chapter-1{
+   color: blanchedalmond;
+}
+p.paragraph {
+   color:fuchsia ;
+}
+.block *{
+   color:darksalmon; 
+}
+.block-2 > p {
+   color: rgb(217, 15, 187) ;
+}
+.block-4 ~ p{
+   color: red;
+}
+.block-4 + p{
+   color:lime;
+}
+.chapter-1 span{
+   color:green;
+   background-color: yellow;
+}
+.chapter-3,.chapter-4{
+   color: rgb(225, 8, 55);
+}

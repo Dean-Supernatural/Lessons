@@ -24,9 +24,6 @@ h2{
    color: green;
    font-size: 25px;
 }
-h3{
-   font-size: 25px;
-}
 
 a{
    color:red;
@@ -57,7 +54,7 @@ a{
    #struggle-2{
       color: rgba(200, 25, 159, 0.132);
    }
-   .chapter-2{
+   .section-2{
       color: azure;
    }
 
@@ -82,7 +79,7 @@ font-style: italic;
    color: rgb(93, 33, 197);
    font-style: italic; } 
 
-.block .chapter-1{
+.block .section-1{
    color: blanchedalmond;
 }
 p.paragraph {
@@ -100,10 +97,13 @@ p.paragraph {
 .block-4 + p{
    color:lime;
 }
-.chapter-1 span{
+.section-1 span{
    color:green;
    background-color: yellow;
 }
-.chapter-3,.chapter-4{
+.section-3,.section-4{
    color: rgb(225, 8, 55);
+}
+li{
+   margin: 0 0 15px 0;
 }

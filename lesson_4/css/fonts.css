@@ -1,0 +1,116 @@
+@font-face {
+	font-family:"SAIBA-45";
+	src: url("../fonts/saiba_45_regular_outline/SAIBA-45-Outline-v11.woff2") format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family:"SAIBA-45";
+	src: url("../fonts/saiba_45_regular_outline/SAIBA-45-Regular-v11.woff") format("woff");
+	font-weight:400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"SAIBA-45-Outline";
+	src: url("../fonts/saiba_45_regular_outline/SAIBA-45-Outline-v11.woff2") format("woff2");
+	font-weight:400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"SAIBA-45-Outline";
+	src: url("../fonts/saiba_45_regular_outline/SAIBA-45-Outline-v11.woff") format("woff");
+	font-weight:400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Babylonica";
+	src: url("../fonts/babylonica_regular/Babylonica-Regular.woff2") format("woff2");
+	font-weight:400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family:"Babylonica";
+	src: url("../fonts/babylonica_regular/Babylonica-Regular.woff") format("woff");
+	font-weight:400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Battambang";
+	src: url("../fonts/battambang/Battambang-Black.woff2") format("woff2");
+	font-weight:900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Battambang";
+	src: url("../fonts/battambang/Battambang-Black.woff") format("woff");
+	font-weight:900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Battambang";
+	src: url("../fonts/battambang/Battambang-Thin.woff2") format("woff2");
+	font-weight:400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Battambang";
+	src: url("../fonts/battambang/Battambang-Thin.woff") format("woff");
+	font-weight:400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Proxima Nova";
+	src: url("../fonts/proxima_nova/ProximaNova-Regular.woff2") format("woff2");
+	font-weight:400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family:"Proxima Nova";
+	src: url("../fonts/proxima_nova/ProximaNova-Regular.woff") format("woff");
+	font-weight:400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Proxima Nova";
+	src: url("../fonts/proxima_nova/ProximaNova-Bold.woff2") format("woff2");
+	font-weight:700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Proxima Nova";
+	src: url("../fonts/proxima_nova/ProximaNova-Bold.woff") format("woff");
+	font-weight:700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family:"Proxima Nova";
+	src: url("../fonts/proxima_nova/ProximaNova-Semibold.woff2") format("woff2");
+	font-weight:500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family:"Proxima Nova";
+	src: url("../fonts/proxima_nova/ProximaNova-Semibold.woff") format("woff");
+	font-weight:500;
+	font-style: normal;
+	font-display: swap;
+}

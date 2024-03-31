@@ -1,0 +1,252 @@
+/*Підключення обнуляючого стилю*/
+@import url("reset.css");
+/*============================= */
+
+/*Підключення шрифтів*/
+@import url("fonts.css");
+/*==================*/
+
+/* ========================= ШРИФТИ =============================== */
+@import url('https://fonts.googleapis.com/css2?family=Tac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&family=Tac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Rubik+Scribble&family=Tac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Butterfly+Kids&family=Rubik+Scribble&family=Tac+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Butterfly+Kids&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Scribble&family=Tac+One&display=swap');
+/* ================================================================ */
+
+h1{
+   font-size: 40px;
+   text-align: center;
+   margin: 0 0 2% 0;
+   
+}
+h2{
+   font-size: 30px;
+   font-family:"Rubik Scribble",sans-serif;
+   
+
+   text-align: center;
+   color: darkviolet;
+   margin: 1% 0 2% 0;
+}
+.example{
+   color:red;
+   
+
+}
+.example-1{
+   color: rgb(201, 25, 143);
+   font-family: "Tac One",sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+}
+.example-2{
+   text-align: center;
+   color: green;
+   font-family: "Tac One",sans-serif;
+   font-weight: 400;
+   font-size: 25px;
+}
+   .example-3{
+      text-align: left;
+      color: blue;
+      font-family: "Butterfly Kids",fantasy;
+      font-size: 40px;
+      font-style: italic;
+   }
+   .example-4{
+      text-align: right;
+      color: rgb(156, 191, 221);
+      font-family:Anton, sans-serif;
+      font-style: oblique;
+      font-weight: 400;
+   }
+   .example-5{
+      text-align: justify;
+      color: rgb(219, 177, 122);
+      font-family: Poppins, sans-serif;
+      font-weight: 900;
+      font-style: italic;
+      font-size: 30px;
+   }
+   .example-6{
+      text-decoration: line-through;
+      color: cadetblue;
+      font-family: "SAIBA-45", sans-serif;
+      font-size: 40px;
+      font-weight: 400;
+   }
+   .example-7{
+      text-decoration:overline;
+      color: rgb(127, 90, 35);
+      font-family:"SAIBA-45-Outline", sans-serif;
+      font-size: 40px;
+   }
+   .example-8{
+      text-decoration: underline;
+      color: aqua;
+      font-family:"Babylonica", fantasy;
+      font-size: 40px;
+   }
+   .example-9{
+      text-decoration: line-through;
+      color: blueviolet;
+      text-decoration: none;
+      font-family:"Battambang",sans-serif;
+      font-weight:900;
+      font-size: 40px;
+   }
+   .example-10{
+      text-decoration: line-through;
+      text-decoration-color: red;
+      text-decoration-style: double;
+      font-size: 40px;
+      font-family:"Battambang", sans-serif;
+      font-weight: 100;
+   }
+   .example-11{
+      text-decoration: underline yellow dotted;
+      color: chartreuse;
+   }
+   .example-12{
+      text-decoration:line-through rgba(55, 1, 156, 0.521)dashed;
+      color: crimson;
+   }
+   .example-13{
+      text-decoration:underline greenyellow wavy;
+      color: magenta;
+   }
+   .example-14{
+      text-shadow: 10px -15px 8px red;
+      font-size: 50px;
+   }
+   .example-15{
+      text-shadow: 8px -8px 10px rgb(3, 3, 50),
+      -8px 8px 10px rgb(242, 123, 5);
+      font-size: 60px;
+   }
+   .example-16{
+      text-transform: capitalize;
+      color: hotpink;
+   }
+   .example-17{
+      text-transform: lowercase;
+      color: darkturquoise;
+   }
+   .example-18{
+      text-transform: uppercase;
+      color: darkolivegreen;
+   }
+   .example-19{
+      line-height: 1.25;
+      color: rgb(164, 47, 47);
+   }
+.example-20{
+   line-height: 2;
+   color: rgb(111, 17, 188);
+}
+.example-21{
+   letter-spacing: 20px;
+   color: rgb(224, 224, 102);
+}
+.example-22{
+   word-spacing: 30px;
+   color: lime;
+}
+.example-23{
+   white-space: nowrap;
+   color: rgb(128, 6, 235);
+}
+p{
+   font-size: 20px;
+   margin: 0 0 2% 0;
+}
+.section{
+      max-width: 100%;
+      max-width: 960px;
+      min-height: auto;
+      margin-left: 643px;  /* міряв прямокутником */
+   }
+.title{
+      text-align: center;
+      color: #2b2929;
+      font-size: 40px;
+      font-family: "Proxima Nova",sans-serif;
+      font-weight: 500;
+      line-height: 120%; /* 48/40 */
+      margin-bottom: 48px;
+      font-style:normal;
+   }
+   .article>p{
+      color: #2b2929;
+      font-size: 16px;
+      font-style: normal;
+      text-align: left;
+      font-family: "Proxima Nova",sans-serif;
+      font-weight: 400;
+      line-height: 187.5%; /* 30/16 */
+      margin-bottom: 10px;
+      /* margin left 643 */
+   }
+   p.faded{
+      color:#d7d7d7;
+   }
+   .section-2{
+   
+         width: 100%;
+         max-width: 1070px;
+         margin-top: 0;
+         min-height: auto;
+         text-align: left;
+         margin-bottom: 0;
+         font-family: "Proxima Nova",sans-serif;
+      }
+      div.section-2{
+         margin: 0 auto;
+      }
+.sub-title{
+   color: #2b2929;
+         font-size: 40px;
+         font-weight: 500;
+         line-height: 120%; /* 48px/40 */
+         margin-bottom: 50px;
+      }
+      .picture{
+         margin-bottom: 40px;
+      }
+     .article-2 p{
+         color: #2b2929;
+         font-size: 16px;
+         font-family: "Proxima Nova",sans-serif;
+         font-weight: 400;
+         line-height: 187.5%; /* 30px/16 */
+      }
+      p.marked{
+            color: #2b2929;
+            font-size: 20px;
+            margin-top: 0;
+            text-align: left;
+            font-family: "Proxima Nova",sans-serif;
+            font-weight: 500;
+            line-height: 140%; /* 28px/20 */
+            margin-top: 51px;
+         }
+         p.footer{
+            margin-top: 55px;
+         }
+         footer{
+            text-align: center;
+         }
+         li{
+            margin-bottom: 10px;
+            color: rgb(226, 132, 10);
+            font-size: 25px;
+   
+         }
+         .list{
+            text-align: center;
+         }
+      
+         .contents{
+            text-align: center;
+         }

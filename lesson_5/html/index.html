@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>Lesson 5</title>
+</head>
+
+<body>
+   <header class="header">
+      <h1>Css властивості блоків</h1>
+   </header>
+   <main class="page">
+      <h2>Padding в div.block та margin між елементами div.block та span.inline</h2>
+      <div class="block">
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+            numquam!
+         </p>
+
+         <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam. Quasi.
+         </p>
+
+      </div>
+
+      <h2 class="title">На span.inline відступи padding правильно не спрацьовує, а з margin можна погратися
+      </h2>
+      <span class="inline">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+      </span>
+      <h2>
+         Відступ margin від span.inline не спрацьовує, тому треба робити відступ від блоку з картинкою
+      </h2>
+      <h2 class="title-2">
+         Відступ margin від картинки до елементу span.inline
+      </h2>
+      <img src="../img/uk-forces.jpg" alt="Українські військові на фоні національного прапору України"
+         class="inline-block">
+      <h2>
+         Задаємо ширину для блоку div.block Для блочних тегів це спрацьовує
+      </h2>
+      <div class="block-2">
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+            numquam!
+         </p>
+
+         <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.
+         </p>
+      </div>
+      <h2>
+         Задаємо ширину для блоку span.inline-2 Для рядкових тегів це не спрацьовує
+      </h2>
+      <span class="inline-2">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+      </span>
+      <h2>
+         Відступ margin-bottom не спрацьовує для блоку span.inline-2
+      </h2>
+
+      <h2>
+         Ширина задається для картинки
+      </h2>
+      <img src="../img/uk-forces.jpg" alt="Українські військові на фоні національного прапору України"
+         class="inline-block-2">
+      <h2>
+         Висота спрацьовує для блочного елементу
+      </h2>
+      <div class="block-3">
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+
+         <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.
+         </p>
+      </div>
+      <h2>
+         Висота не спрацьовує для рядкового елементу
+      </h2>
+      <span class="inline-3">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+
+      </span>
+      <img src="../img/uk-forces.jpg" alt="Українські військові на фоні національного прапору України"
+         class="inline-block-3">
+      <h2 class="title-3">
+         Картинка з'їжджає в сторону, бо на неї діє рядковий елемент
+      </h2>
+      <h2>
+         Висота спрацьовує для блочно-рядкового елементу
+      </h2>
+      <img src="../img/uk-forces.jpg" alt="Українські військові на фоні національного прапору України"
+         class="inline-block-3">
+      <h2>
+         Застоcування властивості overflow зі значенням hidden.
+         Для блочного елементу все спрацьовує.
+      </h2>
+      <div class="block-4">
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+
+         <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam.
+            Quasi.
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+
+
+      </div>
+      <h2>
+         Застоcування властивості overflow зі значенням scroll.
+         Для блочного елементу все спрацьовує.
+      </h2>
+      <div class="block-4-1">
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+      </div>
+      <h2>
+         Застоcування властивості overflow зі значенням auto.
+         Для блочного елементу все спрацьовує.
+      </h2>
+      <div class="block-4-2">
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+            quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+         </p>
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus
+         quos
+         temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+         molestias
+         </p>
+      </div>
+      <h2>
+         Застоcування властивості overflow зі значенням auto та scroll.
+         Для рядкового елементу не спрацьовує.
+      </h2>
+      <span class="inline-4">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus
+         praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit,
+         quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas,
+         quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus
+         praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit,
+         quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas,
+         quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus
+         praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit,
+         quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas,
+         quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+      </span>
+      <img src="../img/uk-forces.jpg" alt="Українські військові на фоні національного прапору України"
+         class="inline-block-4">
+      <h2>
+         Приклад застосування властивості vertical-allign
+      </h2>
+      <div class="example">
+         <img src="../img/military/1.jpg"
+            alt="Український військовий в бойовій позиції сидячи з автоматом на фоні БТРу">
+         <img src="../img/military/2.jpg" alt="Український кулеметник на укріпленній позиції">
+         <img src="../img/military/3.jpg" alt="Українські військові виконують бойове завдання ">
+      </div>
+      <h2>
+         Перетворення блочного елемента в рядковий за допомогою властивості display:inline
+      </h2>
+      <div class="block-5">
+         <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nesciunt itaque, aspernatur repellendus quos
+            temporibus odit mollitia illo exercitationem dolorem ipsa iure fugit ex quis tempore sint doloremque
+            molestias
+            numquam!
+         </p>
+
+         <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel nesciunt laborum id cupiditate possimus
+            repellat
+            unde repudiandae animi, qui nostrum quos, voluptates at quisquam totam! Tenetur nulla fuga veniam. Quasi.
+         </p>
+
+      </div>
+      <h2>
+         Перетворення рядкового елемента в блочний за допомогою властивості display:block
+      </h2>
+      <span class="inline-5">
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, excepturi minus! Quod voluptatibus praesentium
+         soluta cumque fugit saepe laudantium dolores sunt, esse tenetur maxime unde deleniti sed delectus. Odit, quasi?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem earum optio tempore autem sequi voluptas, quam
+         ad veniam blanditiis magni pariatur quisquam facilis amet placeat corrupti deserunt mollitia repellendus
+         excepturi.
+      </span>
+      <h2 class="title-4">Перетворення блочно-рядкового елемента в блочний за допомогою властивості display:block та
+         його центрування за
+         допомогою margin:0 auto
+      </h2>
+      <img src="../img/uk-forces.jpg" alt="Українські військові на фоні національного прапору України"
+         class="inline-block-5">
+      <p class="link">
+         <a href="template.html">Template</a>
+      </p>
+
+
+   </main>
+   <footer class="footer">Футер живе тут</footer>
+
+
+</body>
+
+</html>

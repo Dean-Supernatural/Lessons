@@ -84,6 +84,7 @@ margin-left:-47px;
 /* ==========Section-2============== */
 .section-2 {
    background: url("../img/section_2/about_background.png")0 0/cover no-repeat;
+   margin-bottom: 15px;
    
 }
 .wrapper {
@@ -130,7 +131,7 @@ margin-left:-47px;
 .items-about {
 text-align: center;
 font-size:0px;
-width: 1150;
+width: 1150px;
 min-height: 25px;
 font-family: "Orbitron",sans-serif;
 color: #fff;

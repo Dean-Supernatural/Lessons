@@ -1,0 +1,512 @@
+/* Підключення обнуляючого стилю */
+@import url("reset.css");
+/* ============================= */
+/* ============================================= */
+/* =============== Псевдокласи ================= */
+/* ============================================= */
+h1{
+	margin-top: 10px;
+	margin-left: 30px;
+	display: inline-block;
+	font-size: 48px;
+	color: #0734d7cc;
+	text-shadow: 3px 4px 10px rgb(28, 193, 105), -3px 4px 10px rgb(9, 9, 9);
+	box-shadow:5px -15px 5px 12px rgba(7, 231, 7, 0.786);
+	background-color: rgba(158, 125, 208, 0.532);
+	/* 0px 0px 5px 15px rgb(18, 30, 199); */
+	margin-bottom: 15px;
+}
+h2{font-size: 35px;
+	background-color: rgba(7, 231, 7, 0.786);
+	width: 40%;
+	margin-bottom: 20px;
+}
+.title{
+	margin-bottom: 15px;
+}
+.text-7, .text-8, .text-9, .text-11,.text-12,.text-13,.text-14,.text-15,.text-16,.text-17,.text-18{
+	margin-bottom: 15px;
+}
+p{
+	font-size: 20px;
+	
+}
+.title p:not(:last-child){
+	margin-bottom: 15px;
+}
+.title h2{
+	margin-bottom: 0px;
+}
+.link {
+	background-color: #8b3dff;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+   font-size: 20px;
+   vertical-align: top;
+}
+/*.link span {
+	display: inline-block;
+	background: url("../img/icons/") 0 0 no-repeat; 
+}*/
+
+.link:hover{
+   background-color: #8974a9;
+}
+.link:hover span{
+   background-color: chartreuse;
+   color: rgb(106, 59, 59);
+}
+.link-2 {
+	background-color: #8b3dff;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+   font-size: 20px;
+}
+.link-2:hover{
+   margin-top: 10px;
+}
+.link-3 {
+	background-color: #8b3dff;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+   font-size: 20px;
+	vertical-align: top;
+}
+.link-3:hover{
+	visibility: hidden;
+}
+.link-3-1{
+	background-color: #8b3dff;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+   font-size: 20px;
+	vertical-align: top;
+}
+.link-3-1:hover{
+	opacity: 0;
+}
+.link-4 {
+	background-color: #8b3dff;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+   font-size: 20px;
+}
+.link-4:active{
+color: red;
+}
+.link-5 {
+	background-color: #8b3dff;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+   font-size: 20px;
+}
+.link-5:active{
+	background-color: rgb(189, 19, 149);
+	color: rgb(57, 224, 11);
+}
+.link-6 {
+	background-color: #8b3dff;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+   font-size: 20px;
+}
+.link-6:visited {
+	background-color: gold;
+}
+.link-6:hover {
+	background-color: #8b3dff;
+}
+.link-7 {
+	background-color: #8b3dff;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+   font-size: 20px;
+}
+.link-7:focus {
+	outline: 10px dotted red;
+}
+.link-8 {
+	background-color: #8b3dff;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+   font-size: 20px;
+}
+.link-8:focus-visible {
+	outline: 10px dotted rgb(51, 207, 20);
+	/* Тільки коли на об'єкт перейшли (TAB) */
+}
+.link-9 {
+	background-color: #8b3dff;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+   font-size: 20px;
+}
+
+.text{
+	display: none;
+}
+.text:target{
+display: block;
+background-color: darkorange;
+}
+.text-2 p:first-child{
+	color:red;
+	background-color: #159728;
+	/* Звернення до першого елементу p */
+}
+
+
+
+
+.text-5 *:first-child{
+	background-color: darkblue;
+	}
+.text-6 *:first-child{
+	background-color: rgb(154, 231, 23);
+	/* Не спрацьовує на p, так як перед ним стоять інші теги */
+}
+.text-7 p:first-of-type{
+	background-color: #8b3dff;
+
+}
+.text-7 span:first-of-type{
+	background-color: #0f7096;
+}
+.text-7 div:first-of-type{
+	background-color: #1b7a0d;
+}
+.text-7 a:first-of-type{
+		background-color: #959925;
+	}
+.text-8 p:last-child{
+	background-color: #7d810c;
+}
+.text-9 p:last-of-type{
+	background-color: #e3099b;
+}
+.text-9 span:last-of-type{
+	background-color: #e3099b;
+}
+	.text-9 div:last-of-type{
+		background-color: #e3099b;
+	}
+		.text-10 p:nth-child(6){
+			background-color: deeppink;
+		}
+		.text-10 p:nth-child(even){
+			background-color: rgb(22, 226, 216);
+		}
+		.text-10 p:nth-child(odd){
+			background-color: rgb(13, 207, 84);
+		}
+		.text-11 li:nth-child(even) p{
+			background-color: darkturquoise;
+		}
+.text-12 p:nth-child(1),
+.text-12 p:nth-child(3),
+.text-12 p:nth-child(6),
+.text-12 p:nth-child(8){
+	background-color: cornflowerblue;
+}
+.text-13 p:nth-child(3n){
+	background-color: #7a956b;
+	}
+	.text-14 p:nth-child(3n+1){
+		background-color: #ed49b6;
+	}
+	.text-15 p:nth-child(3n+2){
+		background-color: cyan;
+	}
+	.text-16 p:hover:not(:last-child){
+		background-color: #8b3dff;
+
+	}
+	/*  
+	.text-17:has(p) {
+		background-color: darkgreen;
+	}
+	*/
+	/* .text-17:has(span){ 
+		background-color: lightseagreen;
+	}*/
+
+	.text-17:has(div) {
+		background-color: blueviolet;
+	}
+
+	/* ============================================= */
+/* =============== Псевдоелементи ============== */
+/* ============================================= */
+/* !!!!!!!!!! Псевдоелементи - рядкові  (але в reset доданий display: inline-block;)!!!! */
+/* Властивість content: ""; - Обов'язкова! */
+.text-18{
+	background-color: #717405;
+}
+.text-18 p::before{
+	content: "";
+	background: url('../img/icons/mark.png')0 0/100% no-repeat;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+.text-18 p{
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.text-19{
+	margin-bottom: 15px;
+}
+.text-19 p::after{
+	content:"";
+	height: 2px;
+	width: 100%;
+	background-color: #e3099b;
+
+}
+
+
+/* =========GAME==================== */
+.game{
+	margin-bottom: 20px;
+}
+.game p{
+	color: rgb(13, 171, 206);
+	font-size: 80px;
+	text-align: center;
+	text-transform: capitalize;
+	width: 50%;
+	margin: 0px auto;
+	background-color: rgba(27, 26, 27,0.9);
+}
+.game:hover{
+	text-shadow: 6px 8px 15px rgb(136, 1, 240),
+	-6px -8px 15px rgb(13, 199, 38);
+	/* background-color: #dceb06; */
+	
+}
+.game-container{
+	margin: 0px auto;
+	max-width: 1440px;
+	min-height:800px;
+	/* background-color:rgb(61, 218, 61) ; */
+	background-color:rgb(34, 35, 34);
+	font-size: 0;
+}
+.line-1{
+max-width: 50px;
+min-height: 40px;
+background-color: #8b3dff;
+}
+.line-2{
+max-width: 50px;
+min-height: 60px;
+background-color: #8b3dff;
+}
+.line-2:hover{
+	max-width: 1248px;
+background-color: #8b3dff;
+}
+.line-2:hover ~ .line-3, .line-3:hover{
+	visibility: visible;
+}
+
+.gap-1{
+	display: inline-block;
+	width: 1200px;
+}
+
+.line-3{
+	display: inline-block;
+	width: 48px;
+	min-height: 60px;
+	background-color: #8b3dff;
+	visibility: hidden;
+	}
+.line-3:hover ~ .line-4, .line-4:hover{
+	visibility:visible;
+	display: inline-block;
+}
+
+.gap-2{
+		display: inline-block;
+		width: 350px;
+	}
+
+	.line-4{
+		display: inline-block;
+		width: 898px;
+		min-height: 60px;
+		background-color: #8b3dff;
+		visibility: hidden;
+	}
+.line-4:hover ~ .line-5,.line-5:hover{
+			visibility:visible;
+			display: inline-block;
+			}
+	
+.gap-3{
+		display: inline-block;
+		width: 350px;
+			}
+.line-5{
+display: inline-block;
+width: 40px;
+min-height:100px;
+background-color: #8b3dff;
+visibility: hidden;
+}
+	.line-5:hover ~ .line-6, .line-6:hover{
+		display: inline-block;
+		visibility: visible;
+	}
+
+.line-6{
+	display: inline-block;
+	width:500px;
+	height: 40px;
+	background-color:  #8b3dff;
+	visibility: hidden;
+}
+.line-6:hover ~ .line-7, .line-7:hover{
+	display: inline-block;
+	visibility: visible;
+}
+.gap-4{
+	display: inline-block;
+	width:590px;
+}
+.gap-5{ 
+	display: inline-block;
+	width:250px;
+}
+
+.line-7{ 
+	display: inline-block;
+	width: 50px;
+	height: 80px;
+	background-color: #8b3dff;
+	visibility: hidden; 
+	}
+	.line-7:hover ~ .line-8, .line-8:hover{ 
+	display: inline-block;
+	visibility: visible;
+	}
+	
+	.gap-7{
+	display: inline-block;
+	width:840px;
+	}
+	.line-8{
+	display: inline-block;
+	width: 50px;
+	height: 200px;
+	background-color: #8b3dff;
+	visibility: hidden;
+	}
+	.line-8:hover ~ .line-9,.line-9:hover{
+	display: inline-block;
+	visibility: visible;
+	}
+	.line-9{
+		display: inline-block;
+		width: 50px;
+		height: 200px;
+		background-color: #8b3dff;
+		visibility: hidden;
+	}
+	
+	.line-9:hover ~ .line-10, .line-10:hover{
+	display: inline-block; 
+	visibility: visible;
+}
+
+.gap-8{
+		display: inline-block;
+		width: 840px;
+	}
+	.line-10{
+		display: inline-block;
+		width: 290px;
+		height: 50px;
+		background-color: #8b3dff;
+		visibility: hidden;
+	}
+	.line-10:hover ~ .line-11,.line-11:hover {
+	display: inline-block; 
+	visibility: visible;
+}
+.gap-9{
+	display: inline-block;
+	width: 600px;
+}
+.gap-10{
+		display: inline-block;
+		width: 600px;
+	}
+	
+	.line-11{
+		display: inline-block;
+		width: 40px;
+		height: 40px;
+		background-color: #8b3dff;
+		visibility: hidden;
+		}
+.line-11:hover{
+	height: 150px;
+	background-color: #8b3dff;
+}
+.line-11:hover ~.final, .final:hover{
+	display: block;
+	visibility: visible;
+}
+.final{
+	width: 700px;
+	height: 700px;
+	background :url('../img/rick_and_morty.jpg')50% 0/cover no-repeat;
+	margin: 0px auto;
+	visibility: hidden;
+}
+.way{
+	display:block;
+	height: 100px;
+	width: 200px;
+	background-color: #b093dc;
+	padding:15px 20px;
+	font-weight: 700;
+	line-height: 1.56;
+	border-radius: 8px;
+	margin: 0px auto;
+	font-size: 40px;
+	color:rgb(107, 95, 95) ;
+}
+.way:hover{
+	color: black;
+	background-color: #8b3dff;
+	height: 98px;
+	width: 190px;
+	}
+	.way:active{
+		height: 90px;
+		width: 180px;
+		font-size: 35px;
+	}

@@ -1,0 +1,69 @@
+/* ================================ */
+/* Обнулення стилю */
+@import url('reset.css');
+header{
+   background: linear-gradient(90deg, rgba(237,204,10,0.6111694677871149) 0%, rgba(242,4,37,1) 42%, rgba(0,147,255,1) 93%);
+}
+main{
+   background: linear-gradient(90deg, rgba(237,204,10,0.6111694677871149) 0%, rgba(242,4,37,1) 42%, rgba(0,147,255,1) 93%);
+}
+.container{
+   max-width: 90%;
+   margin: 0px auto;
+   background: linear-gradient(90deg, rgba(4,209,242,0.9641106442577031) 5%, rgba(255,0,249,0.9949229691876751) 42%, rgba(10,237,28,1) 100%);
+}
+header{
+   font-size: 80px;
+   text-align: center;
+}
+h1{
+   font-size: 50px;
+   text-align: center;
+}
+img{
+   max-width: 100%;
+   vertical-align: middle;
+}
+span{
+   font-size: 30px;
+   color: rgb(178, 12, 12);
+   /* vertical-align: middle; */
+}
+.unique{
+   text-align: right;
+}
+
+.block-1{
+   margin-bottom: 20px;
+   max-width: 580px;
+}
+.block-1 p:not(:last-child) {
+   margin-bottom: 15px;
+}
+.block-1 img:hover{
+   opacity:0.5;
+}
+.block-1 img{
+   width:80px ;
+}
+.block-1 p:hover{
+background-color: rgb(18, 189, 223);
+
+}
+.block-2::before{
+   content: "";
+   height: 2px;
+   width:100%;
+   background:linear-gradient(90deg, rgba(4,209,242,0.9641106442577031) 0%, rgba(255,0,74,0.9949229691876751) 0%, rgba(237,204,10,1) 100%);
+}
+.block-2 p:not(:last-child){
+   margin-bottom: 15px;
+
+}
+.block-2 p{
+   font-size: 30px;
+   color: rgb(178, 12, 12);
+}
+.block-2 img:not(:last-child){
+   margin-bottom: 15px;
+}

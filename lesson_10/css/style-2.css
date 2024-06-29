@@ -1,0 +1,304 @@
+/*Обнуляючий файл */
+@import url('reset.css');
+/* ==================== */
+/*Підключення шрифтів*/
+@import url("fonts.css");
+/*==================*/
+
+   /*=========================================================================================  */
+   
+.header-wrapper{
+   min-height: 100%;
+   font-size:0px;
+   font-family: "Proxima Nova",sans-serif;
+   margin-bottom: 10px;
+   margin-bottom: 20px;
+   margin: 0 auto;
+   max-width: 1290px;
+
+}
+
+.section-logo{
+   /* background-color: #f8f8f8; */
+   font-size: 19px;
+   font-weight: 400;
+   line-height: 1.2631; /* 24px/19 */
+   /* padding-left: 312px; */
+   padding-top: 10px;
+   margin-bottom: 10px;
+   text-align: left;
+   position: relative;
+}
+.section-logo__krovato-sign-image, .section-logo__sofa-image{
+   vertical-align: middle;
+}
+.section-logo__button{
+   display:inline-block;
+   /* background-color: #ffbc57; */
+   width: 145px;
+   height: 46px;
+   /* background:url('../img/icons/close-catalog.svg')22px 50% no-repeat  #ffbc57; */
+   padding-left: 54px;
+   padding-top: 12px;
+   color: #fff;
+   font-size: 19px;
+   font-weight: 400;
+  line-height: 1.263157; /* 24px/19 */
+   border-radius:8px;
+   vertical-align: middle;
+}
+
+.section-logo__link--open{
+   display: none;
+}
+.section-logo__link--open:target{
+   display:inline-block;
+   /* margin-bottom:  30px; */
+}
+
+.section-logo__link--open:target+.section-logo__link--close{
+   display: none;
+}
+.section-logo__button--close{
+   background:url('../img/icons/katalog.svg')22px 50% no-repeat  #ffbc57;
+}
+.section-logo__link--open:target ~ .section-list{
+   display: block;
+   
+}
+
+.section-logo__button--open{
+   background:url('../img/icons/close-catalog.svg')22px 50% no-repeat #ffbc57; 
+
+}
+
+.section-logo__link--krovato-sign{
+   margin-right: 30px;
+}
+.section-logo__link--catalog{
+   /* background:url('../img/icons/close-catalog.svg')no-repeat; */
+   /* padding: 12px; */
+}
+.section-list{
+   /* padding-left: 312px; */
+   /* padding-top: 10px; */
+   display: none;
+   position:absolute;
+   top: 115%;
+   left: 0%;
+   z-index: 2; 
+   }
+   .section-list:target{
+      /* display: block; */
+   }
+
+.section-list__menu::after{
+   /* content: ""; */
+   /* border: 5px solid #ffbc57; */
+   /* height: 98%; */
+   /* position: absolute; */
+   /* top:1%; */
+   /* left: 100%; */
+   /* z-index: 2; */
+   /* display: none; */
+
+}
+
+.section-list__menu{
+   background-color:#ffffff;
+   /* background-color: aqua; */
+   max-width: 100%;
+   min-height: 100%;
+   display: inline-block;
+   border-radius:8px 0 0 8px;
+   color: #2b2929;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.4; /* 28px/20 */
+   text-align: left;
+}
+.section-list__menu{
+   position: relative;
+}
+.menu__items{
+   /* padding: 22px 0 0 30px; */
+   vertical-align: middle;
+}
+.menu__item:first-child:hover{
+   border-radius: 8px 0 0 0;
+}
+.menu__item:last-child:hover{
+   border-radius: 0 0 0 8px;
+}
+/*  */
+.menu__item{
+   /* max-width: 300px; */
+   /* min-height: 60px; */
+   padding: 20px 87px 16px 30px;
+   background: url(../img/icons/small-arrow.svg) 92% 50% /auto no-repeat; 
+}
+.menu__item::before{
+   
+}
+
+
+.menu__item img{
+   vertical-align: middle;
+   width: 40px;
+   height: 40px;
+   max-width: 100%;
+}
+.menu__item:hover{
+   background: url(../img/icons/black-arrow.svg) 92% 50%/auto no-repeat  #ffbc57;
+}
+
+
+.menu__text{
+   /* padding-left:87px ; */
+   vertical-align: middle;
+   margin-left: 22px;
+}
+
+
+.sub-menu::before{
+   
+   
+}
+
+.sub-menu__items{
+   padding-top: 29px;
+   padding-left: 29px;
+}
+
+.sub-menu__item{
+   max-width:300px;
+   min-height: 65px;
+   /* padding-bottom: 32px; */
+   /* background-color: blueviolet; */
+
+   
+
+}
+.sub-menu__text{
+   /* padding-left:87px ; */
+   /* vertical-align: middle; */
+   
+}
+.menu__item .sub-menu{
+   position: absolute;
+   left: 100%;
+   top:0;
+}
+.sub-menu{
+   max-width: 325px;
+   min-height: 190px;
+   width: 100%;
+   /* background-color: fuchsia; */
+   display: none;
+   /* background-color: blueviolet; */
+   max-width: 100%;
+   min-height: 100%;
+   vertical-align: top;
+   color: #2b2929;
+   font-size: 19px;
+   text-align: left;
+   font-family: "Proxima Nova",sans-serif;
+   font-weight: 400;
+   line-height: 2.1052; /* 40px/19 */
+   border-radius:0 8px 8px 0;
+   background-color:#ffffff;
+}
+.sub-menu::before {
+   content: "";
+   border: 5px solid #ffbc57;
+   height: 98%;
+   position: absolute;
+   top:1%;
+   right: 100%;
+}
+.menu__item:hover .sub-menu{
+   display: block;
+}
+.section-list__menu:hover::after{
+   /* content: ""; */
+   /* display: block; */
+} 
+/* ====================================================================== */
+.wrapper{
+   min-height: 100%;
+   font-size: 0px;
+   background-color:#f8f8f8;
+   font-family: "Proxima Nova",sans-serif;
+
+}
+.wrapper {
+}
+.header {
+}
+.page {
+}
+.container{
+   margin: 0px auto;
+   max-width: 1290px;
+
+}
+.product-card--margin:not(:last-child){
+   margin-right: 10px;
+}
+
+.product-card {
+   position: relative;
+   display: inline-block;
+   max-width: 250px;
+   min-height: 300px;
+   background-color: rgb(255, 255, 255, 1);
+   border-radius: 8px;
+}
+.product-card:hover{
+   box-shadow: -3px 4px 15px 10px rgba(222, 209, 174, 0.959);
+}
+.product-card__link--category{
+   position:absolute;
+   top: 8.33333%;
+   left: 8%;
+   color: #2b2929;
+   font-size: 20px;
+   font-weight: 500;
+   line-height: 1.4; /* 28px/20 */
+   
+}
+.product-card__link--number {
+   position:absolute;
+   top: 8.3333%;
+   right:8%;
+   color: #b1b1b1;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.4; /* 28px/20 */
+}
+
+.product-card__image {
+   background: url('../img/pictures/frame.png')0 100% no-repeat;
+}
+
+.product-card__link--image{
+   position: relative;
+}
+.product-card__link--image::before{
+   content: "";
+   background: url('../img/icons/arrow-in-circle.svg')0 0 /50px 50px no-repeat;
+   position: absolute;
+   padding: 25px;
+   bottom: 6.6666%;
+   right: 8%;
+}
+h2{
+   color: #2b2929;
+   font-size: 40px;
+   text-align: left;
+   font-weight: 400;
+   line-height: 1.2; /* 48px/40 */
+}
+.title--margin{
+   margin-bottom:50px;
+}

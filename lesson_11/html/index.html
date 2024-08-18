@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lesson 11</title>
+   <link rel="stylesheet" href="../css/reset.css">
+   <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+
+      <header class="header">
+         <h1 class="title">Урок 11</h1>
+         <div class="header__container">
+            <ul class="header__menu menu">
+               <li class="menu__item">
+                  <a href="#2d" class="move-2d">2D трансформація</a>
+               </li>
+               <li class="menu__item">
+                  <a href="#3d" class="move-3d">3D трансформація</a>
+               </li>
+               <li class="menu__item">
+                  <a href="#flipper" class="flipper">Flipper</a>
+               </li>
+               <li class="menu__item">
+                  <a href="#batcar" class="batcar">Тачка</a>
+               </li>
+            </ul>
+         </div>
+      </header>
+
+      <main class="page">
+         <h2 id="2d" class="topic">2D трансформація</h2>
+         <div class="translate">
+            <h2 class="title">transform:translate(x,y)</h2>
+            <div class="block block--margin">
+
+               <div class="block__item-one">
+                  <h3>transform: translate(50px, 50px)</h3>
+
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-two">
+                  <h3>transform: translate(-40px, -50px)</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-three">
+                  <h3>transform: translate(0%, -100%)</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-four">
+                  <h3>transform: translate(20%, -30%)</h3>
+               </div>
+            </div>
+         </div>
+         <div class="scale">
+            <h2 class="title">transform:scale(x,y)</h2>
+            <div class="block block--margin">
+               <div class="block__item-fifth">
+                  <h3>transform: scale(1.5)</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-sixth">
+                  <h3>transform: scale(0.5)</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-seventh">
+                  <h3 class="title title--padding">Дзеркало:transform: scale(-1,1)</h3>
+                  <img src="../img/pictures/hard-to-study.webp" alt="Фрілансер з битою" class="eugene">
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-eighth">
+                  <h3 class="title">transform: scale(50%, 25%)</h3>
+               </div>
+            </div>
+         </div>
+         <div class="scale">
+            <div class="block block--margin">
+               <div class="block__item-nineth">
+                  <h3 class="title">transform: scale(1,50%)</h3>
+               </div>
+            </div>
+         </div>
+         <div class="rotate">
+            <h2 class="title">Rotate (n + deg):Повертає елементи</h2>
+            <div class="block block--margin">
+
+               <div class="block__item-tenth">
+                  <h3 class="title">Rotate(45deg)</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-eleventh block__item-eleventh--modified">
+                  <h3 class="title">Rotate(90deg)</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-twelfth block__item-twelfth--modified">
+                  <h3 class="title">Rotate(360deg)</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-thirteenth">
+                  <h3 class="title">Rotate(135deg)</h3>
+               </div>
+            </div>
+         </div>
+         <div class="rotate">
+            <div class="block block--margin">
+               <div class="block__item-fourteenth">
+                  <h3 class="title">RotateY(75deg)</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-fifteenth">
+                  <h3 class="title">RotateX(60deg)</h3>
+               </div>
+            </div>
+         </div>
+         <div class="skew">
+            <h2>Skew (x + deg, y + deg). Деформує (нахиляє) елементи</h2>
+            <div class="block block--margin">
+               <div class="block__item-sixteen">
+                  <h3 class="title">Skew(20deg, 0deg);</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-seventeen">
+                  <h3 class="title">Skew(0deg, 20deg);</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-eighteen">
+                  <h3 class="title">Skew(20deg, 20deg);</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-nineteen">
+                  <h3 class="title">Skew(145deg, 145deg);</h3>
+               </div>
+            </div>
+         </div>
+         <div class="skew">
+            <div class="block block--margin">
+               <div class="block__item-twenty">
+                  <h3 class="title">Skew(100deg, 180deg);</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-twenty-one">
+                  <h3 class="title">SkewX(120deg)</h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-twenty-two">
+                  <h3 class="title">SkewY(90deg)</h3>
+               </div>
+            </div>
+         </div>
+         <div class="matrix">
+            <h2 class="title">Matrix (a, c, b, d, x, y)<br>
+               Дозволяє об'єднати кілька
+               функцій 2D-трансформацій в одній
+               Множинні 2D трансформації
+               значення розділяються пробілом
+            </h2>
+            <div class="block block--margin">
+               <div class="block__item-twenty-three">
+                  <h3 class="title">Matrix
+                     <br>transform: translate(20px, 20px) scale(0.5) rotate(-45deg) skew(-30deg);
+                  </h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-twenty-four">
+                  <h3 class="title">Matrix
+                     <br>transform: translate(40px, 60px) scale(0.8) rotate(58deg) skew(20deg);
+                  </h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-twenty-five">
+                  <h3 class="title">Matrix
+                     <br>transform: translate(20px, 100px) scale(1.2) rotate(360deg) skew(45deg, 45deg);
+                  </h3>
+               </div>
+            </div>
+         </div>
+         <div class="transform-origin">
+            <h2 class="title">Transform-origin
+               Дозволяє змістити центр трансформації,
+               щодо якого відбувається зміна
+               положення/розміру/форми елемента
+            </h2>
+            <div class="block block--margin">
+               <div class="block__item-twenty-six">
+                  <h3 class="title">Transform-origin<br>
+                     transform: rotate(15deg);
+                     transform-origin:top;
+                  </h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-twenty-seven">
+                  <h3 class="title">Transform-origin<br>
+                     transform-origin:30%;
+                     transform:rotate(-45deg);
+                  </h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-twenty-eight">
+                  <h3 class="title">Transform-origin<br>
+                     transform-origin:400% 500%;
+                     transform: rotate(45deg);
+                  </h3>
+               </div>
+            </div>
+            <div class="block block--margin">
+               <div class="block__item-twenty-nine">
+                  <h3 class="title">Transform-origin<br>
+                     transform-origin:-100% -100%;
+                     transform: rotate(120deg);
+                  </h3>
+               </div>
+            </div>
+         </div>
+         <div class="transform-3d">
+            <h2 class="topic" id="3d"> 3D трансформація</h2>
+            <p>3D трансформація<br>
+               Perspective,<br>
+               perspective-origin<br>
+               Встановлення глибини та зміна
+               точки початку координат.<br>
+               !! Задаються батьківському елементу!<br>
+               perspective-origin: center (за замовченням)<br>
+               perspective - не можна вказати у відсотках<br>
+               */
+
+               /* Пояснення перспективи */<br>
+               /*
+               Значення властивості perspective вказує<br>
+               відстань від точки вказаної у perspective-origin (за замовченням центр об'єкту)<br>
+               до екрану.<br>
+               І ефект перспективи (нахил, масштаб тощо) має вміститись у цю відстань.
+            </p>
+         </div>
+         <div class="translate3-d">
+            <div class="block3d block3d--margin">
+               <div class="block__item-3d-one">
+                  <h3 class="title">
+                  </h3>
+               </div>
+            </div>
+         </div>
+         <div class="translate3-d">
+            <h2 class="title"> translate3D</h2>
+            <p class="info">
+               За аналогією зі своїм 2D братом,<br>
+               це значення визначає переміщення елемента,<br>
+               але в 3D-просторі. Крім осі X та Y <br>
+               додається вісь Z
+            </p>
+
+            <div class="block3d block3d--margin">
+               <div class="block__item-3d-two">
+                  <h3 class="title">translate3d(20px, 50px, 50px);
+                  </h3>
+               </div>
+            </div>
+            <div class="block3d block3d--margin">
+               <div class="block__item-3d-three">
+                  <h3 class="title">translate3d(100px, -40px, 80px);
+                  </h3>
+               </div>
+            </div>
+         </div>
+         <div class="scale3-d">
+            <h2 class="title">scale3D</h2>
+            <div class="block3d block3d--margin">
+               <div class="block__item-3d-four">
+                  <h3 class="title">scale3d(2, 2, 1);
+                  </h3>
+               </div>
+            </div>
+         </div>
+         <div class="rotate3-d">
+            <h2 class="title">rotate3D (x,y,z,n+deg)</h2>
+            <div class="block3d block3d--margin">
+               <div class="block__item-3d-five">
+                  <h3 class="title">rotate3d(200, 50, 90, 45deg);
+                  </h3>
+               </div>
+            </div>
+            <div class="block3d block3d--margin">
+               <div class="block__item-3d-six">
+                  <h3 class="title">rotate3d(-200, -50, -90, 145deg);
+                  </h3>
+               </div>
+            </div>
+         </div>
+         <div class="matrix3-d">
+            <h2 class="title"> matrix3d<br>
+               Multi3D
+            </h2>
+            <div class="block3d block3d--margin">
+               <div class="block__item-3d-seven">
+                  <h3 class="title">
+                  </h3>
+               </div>
+            </div>
+         </div>
+         <div class="transform-style">
+            <h2 class="title">Transform-style<br>
+               Визначає, як дочірні елементи мають відображатися у 3D-просторі.<br>
+               !!! Задається батьківському елементу разом з perspective!<br>
+               transform-style: flat; - за замовченням<br>
+            </h2>
+            <div class="block3d block3d--margin">
+               <div class="block__item-3d-eight">
+                  <h3 class="title">transform: rotateX(55deg);<br>
+                     transform-style: flat; - за замовченням
+                  </h3>
+               </div>
+            </div>
+            <div class="block3d-modified">
+               <div class="block__item-3d-nine">
+                  <h3 class="title">transform: rotateX(55deg);<br>
+                     transform-style: preserve-3d;
+                  </h3>
+               </div>
+            </div>
+         </div>
+         <h2 class="topic" id="flipper">Flipper</h2>
+         <div class="dollar">
+            <div class="dollar__body">
+
+               <div class="dollar__back">
+                  <img src="../img/pictures/dollar-back.webp" alt="Задня сторона долару">
+               </div>
+               <div class="dollar__front">
+                  <img src="../img/pictures/dollar-front.webp" alt="Лицьова сторона долару">
+               </div>
+            </div>
+         </div>
+         <div class="card">
+            <div class="card__body">
+               <div class="card__front">
+                  <img src="../img/pictures/card-front.webp" alt="">
+               </div>
+               <div class="card__back">
+                  <img src="../img/pictures/card-back.webp" alt="">
+               </div>
+            </div>
+         </div>
+
+         <div class="car">
+            <div class="car-body" id="batcar">
+               <div class="basis-one"></div>
+               <div class="basis-two"></div>
+               <div class="basis-three"></div>
+               <div class="basis-four"></div>
+               <div class="basis-five"></div>
+
+               <div class="back-wheel">
+                  <img src="../img/pictures/batman.webp" alt="Логотип Бетмена" class="batman">
+               </div>
+               <div class="front-wheel">
+                  <img src="../img/pictures/batman.webp" alt="Логотип Бетмена" class="batman">
+               </div>
+               <div class="roof">
+
+               </div>
+               <div class="roof-item"></div>
+               <div class="roof-item-2"></div>
+               <div class="windshield"></div>
+               <div class="front-light"></div>
+               <div class="lights">
+                  <div class="back-light-1"></div>
+                  <div class="back-light-2"></div>
+               </div>
+               <div class="front-line"></div>
+               <div class="middle-line"></div>
+               <div class="bottom-line"></div>
+               <div class="body-line"></div>
+               <div class="wheel-line"></div>
+               <div class="black-square"></div>
+               <div class="bottom-lights">
+                  <div class="bottom-line-middle"></div>
+                  <div class="bottom-line-left"></div>
+                  <div class="bottom-line-right"></div>
+               </div>
+               <div class="bat-sign">
+                  <img src="../img/pictures/bat-sign-2.webp" alt="" class="bat-circle">
+               </div>
+
+            </div>
+
+         </div>
+      </main>
+   </div>
+
+   <footer></footer>
+</body>
+
+</html>

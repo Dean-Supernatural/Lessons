@@ -148,10 +148,10 @@ transform: scale(1.5);
 }
 
 .block__item-eighth:hover{
-   transform: scale(50%, 25%);
+   transform: scale(0.5, 0.25);
 }
 .block__item-nineth:hover{
-transform: scale(1,50%);
+transform: scale(1.5);
 }
 .block__item-tenth:hover{
    transform: rotate(45deg);

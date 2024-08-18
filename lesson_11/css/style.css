@@ -102,9 +102,9 @@ h3 {
 .block__item-twenty-one, .block__item-twenty-two, .block__item-twenty-three,
 .block__item-twenty-four, .block__item-twenty-five, .block__item-twenty-six,
 .block__item-twenty-seven, .block__item-twenty-eight, .block__item-twenty-nine,
-.block__item-thirty,.block__item-3d-one,.block__item-3d-two,.block__item-3d-three,
-.block__item-3d-four,.block__item-3d-five,.block__item-3d-six, .block__item-3d-seven,
-.block__item-3d-eight,.block__item-3d-nine,.block__item-3d-ten{
+.block__item-thirty,.block3d__item-3d-one,.block3d__item-3d-two,.block3d__item-3d-three,
+.block3d__item-3d-four,.block3d__item-3d-five,.block3d__item-3d-six, .block3d__item-3d-seven,
+.block3d__item-3d-eight,.block3d-modified__item-3d-nine,.block3d__item-3d-ten{
 	/* padding: 10px; */
 	width: 250px;
 	height: 250px;
@@ -239,29 +239,29 @@ transform: scale(1.5);
       /* perspective-origin: center; */
    }
    
-   .block__item-3d-one:hover{
+   .block3d__item-3d-one:hover{
    transform: rotateX(45deg);
    transition: all 0.3s;
    }
-   .block__item-3d-two:hover{
+   .block3d__item-3d-two:hover{
       transform: translate3d(20px, 50px, 50px);
    }
-   .block__item-3d-three:hover{
+   .block3d__item-3d-three:hover{
       transform: translate3d(100px, -40px, 80px);
    }
-   .block__item-3d-four:hover{
+   .block3d__item-3d-four:hover{
       transform: scale3d(2, 2, 1);
    }
-   .block__item-3d-five:hover{
+   .block3d__item-3d-five:hover{
       transform: rotate3d(200, 50, 90, 45deg);
    }
-   .block__item-3d-six:hover{
+   .block3d__item-3d-six:hover{
       transform: rotate3d(-200, -50, -90, 145deg);
    }
-   .block__item-3d-seven:hover{
+   .block3d__item-3d-seven:hover{
       transform: translate3d(50px, 20px, 20px) rotate3d(1, 1, 1, 80deg);
    }
-   .block__item-3d-eight:hover{
+   .block3d__item-3d-eight:hover{
       transform: rotateX(55deg);
       
    }
@@ -270,7 +270,7 @@ transform: scale(1.5);
       transform-style: preserve-3d;
    }
    
-   .block__item-3d-nine:hover{
+   .block3d-modified__item-3d-nine:hover{
       transform: rotateX(55deg);
       
    }

@@ -1,0 +1,125 @@
+.space-boat{
+   width:12%;
+   position: absolute;
+   top: 0%;
+   left: 73%;
+   opacity: 0;
+   /* animation: space-boat-moving 5s 94s;треба відновити */
+   /* animation: space-boat-moving 4s 94.5s forwards;real */
+   animation: space-boat-moving 3.5s 95s forwards;
+}
+.space-paratrooper{
+   width:8%;
+   position: absolute;
+   top: 10%;
+   left: 78%;
+   opacity: 0;
+   animation:space-paratrooper-moving 3.5s 95s;
+   /* animation:space-paratrooper-moving 5s 94s;треба відновити */
+   /* animation:space-paratrooper-moving 4s 94.5s forwards; */
+}
+.space-paratrooper-yellow{
+   width:8%;
+   position: absolute;
+   top: 5%;
+   left: 58%;
+   /* animation:space-paratrooper-yellow-moving 4s 95s forwards;треба відновити */
+   opacity: 0;
+   animation:space-paratrooper-yellow-moving 3s 96s forwards;
+}
+.space-boat-blue{
+   width:12%;
+   position: absolute;
+   top: -5%;
+   left: 53%;
+   /* animation:space-boat-blue-moving 4s 95s forwards;треба відновити */
+   opacity: 0;
+   animation:space-boat-blue-moving 3s 96s forwards;
+}
+.dark-queen{
+   width: 10%; 
+   position: absolute;
+   top: 5%;
+   left:55%;
+   opacity: 0;
+   animation: rash-toad-appearance 1s 59s forwards;
+   /* animation: dark-queen-movement 2s 34s forwards; */
+}
+.dark-queen-launching{
+   width: 10%; 
+   position: absolute;
+   top: 5%;
+   left:55%;
+   opacity: 0;
+   /* animation: dark-queen-movement 2s 10s forwards; */
+   animation: dark-queen-movement 2s 86.8s forwards;
+}
+.dark-queen-rocket{
+   width: 20%;
+   position: absolute;
+   top: 0;
+   left: 35%;
+   opacity: 0;
+   animation: dark-queen-rocket-appearance 5.3s 86.3s cubic-bezier(.82,.44,1,1.95);
+   /* 6.5s cubic-bezier(.82,.44,1,1.95); */
+   /* animation: dark-queen-rocket-appearance 4.8s 86.8s cubic-bezier(.82,.44,1,1.95); */
+   /* animation: dark-queen-rocket-appearance 2s 10s cubic-bezier(.82,.44,1,1.95) ; */
+   /* animation: dark-queen-rocket-appearance 4.5s 86.8s cubic-bezier(.82,.44,1,1.95) ; */
+   /* /* animation: dark-queen-rocket-leaving 35s; */
+   /* cubic-bezier(.57,-0.14,.21,1.64) */
+   /* поява */
+}
+.dark-queen-rocket-2{
+   width: 20%;
+   position: absolute;
+   top: 0;
+   left: 35%;
+   /* animation:dark-queen-rocket-launching 43s 10s cubic-bezier(.13,.93,.64,1.95); */
+   /* animation:dark-queen-rocket-launching 48s 88.6s cubic-bezier(.13,.93,.64,1.95); */
+   animation:dark-queen-rocket-launching 49s 89s cubic-bezier(.13,.93,.64,1.95);
+   opacity: 0;
+   /* cubic-bezier(.13,.93,.64,1.95) */
+   /* 3.2 s difference */
+   /* запуск */
+}
+.abobo{
+   width: 25%;
+   position: absolute;
+   bottom: 30%;
+   left: 73%;
+   opacity: 0;
+   /* animation: abobo-appearance 16s 12s cubic-bezier(.01,1.24,.01,1.24) forwards; */
+   animation: abobo-appearance 14s 70s cubic-bezier(.01,1.24,.01,1.24) forwards;
+   transform: translate(0%,100%);
+}
+.abobo-start{
+   width: 12%;
+   position: absolute;
+   top: 20%;
+   right: 21%;
+   z-index: 19;
+   animation: abobo-starting 1.9s 112.3s forwards;
+   opacity: 0;
+   /*  animation: abobo-starting 2s 7.2s forwards; */
+}
+.abobo-boss{
+   width: 12%;
+   position: absolute;
+   top: 20%;
+   right: 21%;
+   z-index: 18;
+   animation: abobo-boss-moving 5s 113.9s forwards;
+   /* animation: abobo-boss-moving 5s 8.7s forwards; */
+   opacity: 0;
+   /* -1с */
+}
+.abobo-final{
+   width: 12%;
+   position: absolute;
+   top: -30%;
+   left: 20%;
+   z-index: 8;
+   /* animation: abobo-falling 2s 1s forwards; */
+   animation: abobo-falling 2s 118.9s forwards;
+   /* real */
+}

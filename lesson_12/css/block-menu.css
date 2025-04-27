@@ -1,0 +1,158 @@
+/* @import url('../css/style.css'); */
+.face-rash, .face-zitz,.face-pimple,.face-billy,.face-jimmy{
+   /* position: relative; */
+   width:78%;
+}
+
+.face-zitz{ 
+   /* position: relative; */
+   /* width: 15%; */
+   /* margin-left: 3%; */
+   /* margin-right: 3%; */
+   border: 15px double transparent;
+   animation: rash-frame 1s 43s;
+}
+.face-rash{
+text-align: top;
+/* width: 60%; */
+/* width: 50%; */
+border: 15px double transparent;
+animation: rash-frame 1s 44s infinite;
+
+}
+.face-pimple{
+   border: 15px double transparent;
+   animation: rash-frame 1s 42s;
+}
+   /*  
+.face-pimple-2{
+   position: relative;
+   width: 15%;
+}
+   */
+
+.face-billy{
+   /* position: relative; */
+   /* width: 15%; */
+   /* margin-right: 5%; */
+   border: 15px double transparent;
+   animation: billy-frame 1s 43s infinite;
+}
+
+.face-jimmy{
+   /* position: relative; */
+/* width: 15%; */
+/* margin-right: 100px; */
+border: 15px double transparent;
+animation: billy-frame 1s 42s;
+}
+.face-rash-2{
+   width: 19%;
+   position: absolute;
+   top: 15%;
+   left: 14%;
+   opacity: 0;
+   animation: choosing-rash 5s 46s forwards;
+}
+.face-billy-2{
+   width: 19%;
+   position: absolute;
+   top: 56%;
+   left:27%;
+   opacity: 0;
+   animation: choosing-billy 4.5s 46s forwards;
+   /* 5s 49s forwards */
+}
+.block-1{
+   /* display: inline-block; */
+/* text-align:center; */
+width: 100%;
+min-height: 100%;
+background: url('../img/battletoads/construction/menu.jpg')0 0/100% 100% no-repeat;
+/* 0 0/100% 100% no-repeat */
+padding-top: 1%;
+opacity: 0;
+animation: block-1-appearance 5s 41.3s forwards;
+/* 10s 1s */
+position: absolute;
+left: 0;
+top: 0;
+}
+.sub-block-1{
+   animation: sub-block-1-disappearance 1s 45.3s forwards;
+}
+.toads-group, .boys-group{
+   text-align:center;
+   /* width: 100%; */
+   font-size: 0px;
+}
+
+.selection{
+   width: 100%;
+   /* transform:translate(100%, 0) ; */
+   /* position: absolute; */
+   /* top: 5%; */
+   /* left: 27.5%; 1*/
+   /* left: -2%; */
+   text-transform: uppercase;
+   font-size: 30px;
+   height:100%;
+   min-width:30%;
+   animation:menu-choosing 1s infinite;
+   /* opacity: 0; */
+}
+.informative-block{
+   background-color: black;
+   margin: 0 auto;
+   border: 10px solid yellow;
+   width: 40%;
+   /* height: 15%; */
+   /* min-height: 5%; */
+   border-radius: 8%;
+   /* Вибери гравця */
+   margin-bottom: 1%;
+   /* margin-top: 3%; */
+}
+.card{
+   vertical-align: top;
+   display: inline-block;
+   /* width: 10%; */
+
+}
+.card:not(:last-child){
+   /* margin-right: -6%; */
+}
+.card__item{
+   /* width: 100%; */
+}
+h3.title{
+   font-size: 28px;
+   color: yellow;
+   text-transform: uppercase;
+}
+
+.player-rash, .player-zitz,.player-pimple,.player-billy,.player-jimmy{
+   font-size: 25px;
+   color: transparent;
+   text-transform: uppercase;
+   /* opacity: 0; */
+}
+.player-rash{
+   animation:player-one 1s 44s infinite;
+   /*numbers 1 */
+}
+.player-pimple{
+   animation:player-one 1s 42s;
+}
+.player-zitz{
+   animation:player-one 1s 43s;
+}
+.player-jimmy{
+   animation:player-one 1s 42s;
+}
+.player-billy{
+   animation:player-one 1s 43s infinite;
+}
+h2{
+   font-size: 20px;
+}

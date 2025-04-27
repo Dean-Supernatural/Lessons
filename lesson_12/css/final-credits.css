@@ -1,0 +1,71 @@
+.final-credits {
+   text-align: center;
+   font-family: ' Road Pixel';
+   font-weight: 700;
+   /* font-size: 50px; */
+   /* width: 100%; */
+   position: absolute;
+   /* top: 10%; */
+   /* left: 18%; */
+   /* opacity: 0; */
+   top: 0;
+   left: 0;
+   width: 100%;
+
+}
+.final-credits p{
+   color: white;
+   font-size: 80px;
+   text-align: center;
+   text-transform: uppercase;
+   
+}
+.final-credits p:not(:last-child){
+   margin-bottom: 3%;
+}
+.final-credits p:nth-child(1){
+   animation: logo-1 6s 124.5s forwards; 
+   opacity: 0;
+   padding-top: 8%;
+
+}
+.final-credits p:nth-child(2){
+   animation: logo-1 6s 124.5s forwards; 
+   opacity: 0;
+}
+.final-credits p:nth-child(3){
+   animation: logo-1 6s 124.5s forwards; 
+   opacity: 0;
+   color: green;
+}
+.final-credits p:nth-child(4){
+   animation: logo-1 6s 124.5s forwards; 
+   opacity: 0;
+}
+.final-credits p:nth-child(5){
+   padding-top: 15%;
+   animation: logo-1 6s 131.5s forwards; 
+   opacity: 0;
+   /* name */
+}
+.final-credits p:nth-child(6){
+}
+/* .final-cover{
+   width: 50%;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   /* transform: scale(0.01) translate(0, -4700%); */
+   /* animation:final-show 4s 8s forwards; */
+/* }  */
+.final-cover{
+   width: 100%;
+   position: absolute;
+   top: 0%;
+   right: 0%;
+   transform: scale(0.01) translate(-10%, -100%);
+   opacity: 0;
+   /*  translate(0, -4700%) */
+   
+   animation:final-show 3s 130s forwards;
+}

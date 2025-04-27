@@ -1,0 +1,268 @@
+/* Підключення анімації */
+@import url('../css/animation.css');
+/* ================================ */
+@import url('../css/block-menu.css');
+/* ================================ */
+@import url('../css/replicas.css');
+/* =============================== */
+@import url('../css/building-blocks.css');
+/* ===================================== */
+@import url('../css/heroes.css');
+/* ====================================== */
+@import url('../css/villains.css');
+/* ======================================= */
+@import url('../css/fight-stages.css');
+/* ======================================= */
+@import url('../css/final-credits.css');
+/* ======================================= */
+
+/* =========Підключення шрифту======= */
+/* ======================================= */
+@font-face {
+   font-family: ' Road Pixel';
+   font-display: swap;
+   src: url("../fonts/RoadPixel.ttf");
+   src: local("O"), url("../fonts/RoadPixel.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+}
+ /* ============================================================= */
+/* The main constuction */
+.wrapper{
+   background: url('../img/battletoads/construction/starsky.gif')100%;
+   overflow:clip;
+   width:100%;
+   height:100% ;
+}
+/* =============================== */
+/* ==============Parts============ */
+.part-one{
+      animation:part-one-disappearance 1s 42s forwards;
+      /* opacity: 0; */
+   }
+   .part-two{
+      /* animation: part-two-disappearance 1s 49s forwards; */
+      /* opacity: 0; */
+   }
+   .part-three{
+   animation: dark-queen-fade 1s 86.3s forwards;
+   }
+.part-four{
+   /* animation: dark-queen-fade 1s 1.3s forwards; */
+   animation: rash-disappearing 1s 95.9s forwards;
+   /* rash's fight with a paratrooper */
+}
+.part-five{
+   animation: rash-disappearing 1s 97s forwards;
+   /* lee's fight with a paratrooper */
+}
+.part-six{
+   animation: rash-disappearing 1s 100s forwards;
+}
+/* ======================================== */
+/* ======================================== */
+.spaceship{
+   position:absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   animation: building-sample 1s 122s forwards;
+   /* opacity: 0; */
+   /* Зникнення fight-scene */
+}
+.building-shield{
+   animation: building-sample 1s 110.5s forwards;
+   /* opacity: 0; */
+   /* Зникнення блоків */
+}
+
+/* ========================================================== */
+/*=====================Вступні титри========================= */
+.intro{
+   text-align: center;
+   font-family: ' Road Pixel';
+   font-weight: 700;
+   font-size: 50px;
+   /* width: 100%; */
+   position: relative;
+   top: 0;
+   left: 0;
+   /* opacity: 0; */
+}
+.intro p:nth-child(1){
+   /* transform: translate(-100%,0); */
+   animation: logo-1 3s 1s forwards;
+   /* transition: transform 4s; */
+   padding: 10%;
+   opacity: 0;
+   /* position:absolute; */
+   /* top: 0; */
+   /* left:0; */
+   font-size: 100px;
+   z-index: 1;
+   width: 100%;
+   /* display: none; */
+}
+.intro p:nth-child(2){
+   opacity: 0;
+   animation: logo-2 4s 5s forwards;
+   padding: 12%;
+   font-size: 100px;
+   /* display: none; */
+   position:absolute;
+   top: 0;
+   left:0;
+   width: 100%;
+   z-index: 2;
+}
+.intro p:nth-child(3){
+   opacity: 0;
+   animation: logo-3 4s 10s forwards;
+   padding: 15%;
+   font-size: 80px;
+   position:absolute;
+   top: 0;
+   left:0;
+   width: 100%;
+   z-index: 3;
+}
+.intro p:nth-child(4){
+   animation: logo-4 4s 15s forwards;
+   opacity: 0;
+   padding: 8%;
+   position:absolute;
+   top: 0;
+   left:0;
+   width: 100%;
+   z-index: 4;
+   font-size: 80px;
+}
+.intro p:nth-child(5){
+   animation: logo-5 3s 19s forwards;
+   opacity: 0;
+   padding: 20%;
+   position:absolute;
+   top: 0;
+   left:0;
+   width: 100%;
+   z-index: 5;
+   font-size: 80px;
+}
+.logo{
+   width: 20%;
+}
+.intro p{
+   font-size: 80px;
+}
+
+.cover{
+   width: 60%;
+   /* border-radius: 50%; */
+
+}
+/* =============Друга частина=========== */
+/* ====Права на володіння+компанії====== */
+.picture{
+   /* width: 100%; */
+   text-align: center;
+   animation: main-theme 3.5s 22s cubic-bezier(.47,-0.26,.78,1.17) forwards;
+   /* opacity: 0; */
+   transform: translate(-100%, -100%);
+  /* transition-timing-function: cubic-bezier(.76,-0.92,.3,1.95); */
+  /* 24s */
+}
+
+.start{
+   text-transform: uppercase;
+}
+ul.titles__items{
+   /* transform: translate(-100%, 0%); */
+   text-align: center;
+   margin-top:20px;
+   /* opacity: 0; */
+   animation: dissapearing-titles 1s 33s forwards;
+}
+li.item{
+   font-size: 30px;
+   color: white;
+   margin-bottom: 10px;
+}
+li.item:not(:last-child){
+   margin-bottom: 10px;
+}
+li.item-player{
+   font-size: 35px;
+   color:  rgb(255,69,0);
+}
+li.item-player:not(:last-child){
+   margin-bottom: 10px;
+}
+
+li.item:nth-child(1){
+   transform: translate(-100%, 0);
+   animation:first-sign 2s 25s forwards;
+   color: rgb(255,69,0);
+   text-transform: uppercase;
+   
+}
+li.item:nth-child(2){
+   transform: translate(0, 0);
+   color: rgb(255,250,250);
+   opacity: 0;
+   animation: second-sign 4s 29s forwards;
+}
+li.item:nth-child(3){
+   transform: translate(200%, 0);
+   color:  rgb(255,69,0);
+   animation: third-sign 2s 26s forwards;
+}
+li.item:nth-child(4){
+   transform: translate(-100%, 0%);
+   animation: fourth-sign 2s 28s forwards;
+}
+/*=============Вибір гравця============*/
+/*=====================================*/
+
+ul.titles__players{
+   font-family: ' Road Pixel';
+}
+li.item-player:nth-child(1){
+transform: translate(0%, -400%);
+/* animation: one-player 2s 0s forwards; */
+color: rgb(255,69,0);
+text-align: center;
+opacity: 0;
+animation: one-player 1s 34s forwards;
+/* 28 */
+}
+
+li.item-player:nth-child(2){
+transform: translate(0%, -300%);
+animation: one-player 2s 3 36s forwards;
+color: rgb(255,69,0);
+text-align: center;
+opacity: 0;
+}
+
+li.item-player:nth-child(1)::before{
+   content: '';
+   width: 25px;
+   height: 25px;
+   background-color: red;
+   border-radius: 50%;
+   margin-right: 10px;
+   animation: circle-appearance 3s 35s forwards;
+   opacity: 0;
+
+}
+li.item-player:nth-child(2)::before{
+   content: '';
+   width: 25px;
+   height: 25px;
+   background-color: red;
+   border-radius: 50%;
+   /* transform: translate(0%, -600%); */
+   margin-right: 10px;
+   opacity: 0;
+   animation: circle-appearance-2 1s 3 37s forwards;
+}

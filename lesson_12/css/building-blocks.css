@@ -1,0 +1,211 @@
+.building-block{
+   position: absolute;
+   top:14%;
+   right:8%;
+   z-index: 70;
+   width: 30%;
+   opacity: 0;
+   /* transform: rotate(25deg); */
+   /* animation: breaking 3s 104s forwards; */
+   animation: pre-breaking 1s 102s forwards;
+}
+.building-block-2{
+   position: absolute;
+   top:18%;
+   right:11%;
+   z-index: 33;
+   width: 30%;
+   opacity: 0;
+   /* transform: rotate(25deg); */
+   /* transform-origin: 5%; */
+   /* animation:breaking-2 3s 6.2s forwards; */
+   animation: pre-breaking 1s 102s forwards;
+}
+.building-block-3{
+   position: absolute;
+   top:20%;
+   right:13%;
+   z-index: 34;
+   width: 30%;
+   opacity: 0;
+   /* transform: rotate(25deg); */
+   /* animation:breaking-3 3s 6.4s forwards; */
+   animation: pre-breaking 1s 102s forwards;
+}
+.building-block-4{
+   position: absolute;
+   top:22%;
+   right: 15%;
+   z-index: 35;
+   width: 30%;
+   opacity: 0;
+   /* transform: rotate(25deg); */
+   /* animation:breaking-4 3s 6.6s forwards; */
+   animation: pre-breaking 1s 102s forwards;
+}
+.building-block-5{
+   position: absolute;
+   top:26%;
+   right: 18%;
+   z-index: 36;
+   width: 30%;
+   opacity: 0;
+   /* transform: rotate(125deg); */
+   /* animation:breaking-5 3s 6.8s forwards; */
+   animation: pre-breaking 1s 102s forwards;
+}
+.building-block-6{
+   position: absolute;
+   top:31%;
+   right: 22%;
+   z-index: 37;
+   width: 30%;
+   opacity: 0;
+   /* transform: rotate(25deg); */
+   /* animation:breaking-6 3s 7s forwards; */
+   animation: pre-breaking 1s 102s forwards;
+}
+.building-block-7{
+   position: absolute;
+   top:36%;
+   right: 26%;
+   z-index: 38;
+   width: 30%;
+   opacity: 0;
+   /* transform: rotate(25deg); */
+   /* animation:breaking-7 3s 7.2s forwards; */
+   animation: pre-breaking 1s 102s forwards;
+}
+.building-block-8{
+   position: absolute;
+   top:40%;
+   right: 30%;
+   z-index: 39;
+   width: 30%;
+   opacity: 0;
+   /* transform: rotate(25deg); */
+   /* animation:breaking-8 3s 7.3s forwards; */
+   animation: pre-breaking 1s 102s forwards;
+}
+.building-block-9{
+   position: absolute;
+   top:14%;
+   right:8%;
+   z-index: 70;
+   width: 30%;
+   opacity: 0;
+   transform: rotate(25deg);
+   animation: breaking 4s 110.5s forwards;
+   /* animation: breaking 4s 109.5s forwards; */
+}
+.building-block-10{
+   position: absolute;
+   top:18%;
+   right:11%;
+   z-index: 33;
+   width: 30%;
+   opacity: 0;
+   transform: rotate(25deg);
+   transform-origin: 5%;
+   animation:breaking-2 4s 110.7s forwards;
+}
+.building-block-11{
+   position: absolute;
+   top:20%;
+   right:13%;
+   z-index: 34;
+   width: 30%;
+   opacity: 0;
+   transform: rotate(25deg);
+   animation:breaking-3 4s 110.9s forwards;
+}
+.building-block-12{
+   position: absolute;
+   top:22%;
+   right: 15%;
+   z-index: 35;
+   width: 30%;
+   opacity: 0;
+   transform: rotate(25deg);
+   animation:breaking-4 4s 111.1s forwards;
+   
+}
+.building-block-13{
+   position: absolute;
+   top:26%;
+   right: 18%;
+   z-index: 36;
+   width: 30%;
+   opacity: 0;
+   transform: rotate(25deg);
+   animation:breaking-5 4s 111.3s forwards;
+}
+.building-block-14{
+   position: absolute;
+   top:31%;
+   right: 22%;
+   z-index: 37;
+   width: 30%;
+   opacity: 0;
+   transform: rotate(25deg);
+   animation:breaking-6 4s 111.5s forwards;
+   
+}
+.building-block-15{
+   position: absolute;
+   top:36%;
+   right: 26%;
+   z-index: 38;
+   width: 30%;
+   opacity: 0;
+   transform: rotate(25deg);
+   animation:breaking-7 4s 111.7s forwards;
+   /* animation: pre-breaking 1s 102s forwards; */
+}
+.building-block-16{
+   position: absolute;
+   top:40%;
+   right: 30%;
+   z-index: 39;
+   width: 30%;
+   opacity: 0;
+   transform: rotate(25deg);
+   animation:breaking-8 4s 111.9s forwards;
+   /* animation: pre-breaking 1s 102s forwards; */
+}
+.fan-wheel{
+   position: absolute;
+   top:7%;
+   right: 15%;
+   width: 15%;
+   animation: wheeler 0.1s 54s infinite;
+   opacity: 0;
+   /* z-index:67; */
+}
+.fan-wheel-2{
+   position: absolute;
+   top:21%;
+   right: 59%;
+   width: 13%;
+   animation: wheeler 0.1s 102s infinite;
+   z-index: 15;
+   opacity: 0;
+}
+.fan-wheel-3{
+   position: absolute;
+   top:7%;
+   right: 46%;
+   width: 13%;
+   animation: wheeler 0.1s 102s infinite;
+   z-index: 16;
+   opacity: 0;
+}
+.fan-wheel-4{
+   position: absolute;
+   bottom:33%;
+   right: 7%;
+   width: 13%;
+   animation: wheeler 0.1s 102s infinite;
+   z-index: 17;
+   opacity: 0;
+}

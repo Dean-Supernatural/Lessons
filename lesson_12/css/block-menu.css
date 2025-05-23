@@ -62,7 +62,7 @@ animation: billy-frame 1s 42s;
    animation: choosing-billy 4.5s 46s forwards;
    /* 5s 49s forwards */
 }
-.block-1{
+.block{
    /* display: inline-block; */
 /* text-align:center; */
 width: 100%;
@@ -77,7 +77,7 @@ position: absolute;
 left: 0;
 top: 0;
 }
-.sub-block-1{
+.sub-block{
    animation: sub-block-1-disappearance 1s 45.3s forwards;
 }
 .toads-group, .boys-group{

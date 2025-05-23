@@ -19,7 +19,7 @@
    left: 5%;
    width: 10%;
    opacity: 0;
-   animation: rash-toad-moving 1.5s 96s forwards;
+   animation: rash-toad-moving 1.5s 95.8s forwards;
    /* animation:rash-toad-moving-2 0.8s 2.8s forwards; */
    /* animation: rash-toad-moving 1.5s 2s forwards; */
    z-index: 200;
@@ -30,7 +30,7 @@
    position: absolute;
    top:35%;
    left: 5%;
-   animation: toad-fight-scene 1.4s 96s forwards;
+   animation: toad-fight-scene 1.4s 96.1s forwards;
    /* animation: toad-fight-scene 1s 4.4s forwards; */
    opacity: 0;
 
@@ -110,7 +110,7 @@
 .rash-toad-8{
    position: absolute;
    top:30%;
-   left: 60%;
+   left: 55%;
    width: 10%;
    z-index: 22;
    opacity: 0;
@@ -146,7 +146,7 @@
    left: 3%;
    /* animation:billy-kick-striking 1.6s 1.3s forwards ; */
    /* animation:billy-kick-striking 1.8s 92s forwards ; */
-   animation:billy-kick-striking 1.4s 97s forwards ;
+   animation:billy-kick-striking 1.4s 97.5s forwards ;
    /* first billy's kick */
    opacity: 0;
    z-index: 20;
@@ -159,7 +159,7 @@
    z-index: 5;
    opacity: 0;
    /* animation:rash-toad-appearance 1s 55.5s forwards; треба відновити */
-   animation:billy-lee-moving 2s 97.1s forwards;
+   animation:billy-lee-moving 2s 97.5s forwards;
    /* animation:billy-lee-moving 2s 4s forwards; */
 }
 .billy-lee-3{
@@ -241,12 +241,14 @@
    /* animation: heroes-fly 2s 10s forwards; */
    width: 5%;
    position: absolute;
-   top:30%;
+   top:28%;
    left:50%;
    z-index: 20;
    opacity: 0;
-   animation:rash-toad-8-appearance 1s 118.8s forwards ;
+   animation:billy-lee-8-appearance 1.5s 117.6s forwards ;
+
    /* animation:billy-lee-7-moving 0.8s 9s forwards; */
+   /*  animation:rash-toad-8-appearance 1s 118.8s forwards ; */
 }
 
 .princess{

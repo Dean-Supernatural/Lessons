@@ -1150,6 +1150,18 @@
 
       }
 }
+@keyframes billy-lee-8-appearance{
+   0% {
+      opacity: 1;
+   }
+   50%{
+      transform: translate(-150%, 0);
+   }
+   100% {
+      transform: translate(0, 0);
+      opacity: 1;
+   }
+}
 /* ========================================= */
 /* =============Rash-moving================= */
 @keyframes rash-toad-5-moving{
@@ -1258,6 +1270,8 @@
 @keyframes rash-toad-8-appearance{
    0% {
       opacity: 1;
+   }
+   50%{
    }
    100% {
       opacity: 1;
@@ -1524,4 +1538,40 @@
 
 }
 }
+@keyframes title-flying{
+   0% {
+   }
+   50% {
+      transform:translate(0%, 100%);
+   }
+   100% {
+      opacity: 1;
+
+}
+}
+@keyframes rash-running{
+   0% {
+   }
+   50% {
+      transform:translate(-38%, 0%);
+   }
+   100% {
+      opacity: 1;
+
+}
+}
+/* ======================================= */
+/*========== Audio-button================= */
+@keyframes audio-button{
+   0% {
+   }
+   50% {
+   
+   }
+   100% {
+      opacity: 1;
+
+}
+}
+/* audio-button */
 /* ===Thanks for watching=== */

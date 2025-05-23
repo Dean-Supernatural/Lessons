@@ -16,6 +16,7 @@
    z-index: 5;
    opacity: 0;
    transform: translate(-200%,0 );
+   
    animation: fight-stage-2-moving 2s 99.8s forwards;
 }
 .fight-stage-3{
@@ -30,3 +31,17 @@
 }
 
 
+audio{
+   /* text-align: right; */
+   opacity: 0;
+   position: absolute;
+   left: 0;
+   top: 0;
+   animation: audio-button 0.8s 22s 10;
+}
+audio:hover{
+   opacity: 1;
+   /* position: absolute; */
+   /* left: 0; */
+   /* top: 0; */
+}

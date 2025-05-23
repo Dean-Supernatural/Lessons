@@ -1,6 +1,31 @@
 /*=========================  */
 @import url('reset.css');
 /* ========================= */
+@import url('../css/animation.css');
+/* ============================== */
+h1{
+   font-size: 48px;
+   margin-bottom: 2%;
+   color: RGB(99, 187, 17);
+}
+h2{
+   font-size: 32px;
+   margin-bottom: 1%
+}
+h2{
+   color: RGB(192, 14, 236);
+}
+p{
+   font-size: 20px;
+   line-height: 1.5;
+}
+p:not(:last-child){
+   margin-bottom: 1.5%;
+   
+}
+p.final{
+   margin-bottom: 0;
+}
 .block{
    width: 200px;
    height: 200px;
@@ -42,7 +67,6 @@
    background-color:violet;
 }
 .list{
-  
 }
 .list__item{
    font-size: 20px;
@@ -99,9 +123,9 @@ margin-bottom: 30px;
    border-radius: 50%;
    border: 10px dashed black;
 animation-name: color, move;
-animation-duration: 2s;
+animation-duration: 20s;
 animation-timing-function: linear;
-animation-iteration-count: 5;
+animation-iteration-count: 20;
 animation-direction:alternate;
 animation-delay:2s;
 animation-fill-mode: backwards;
@@ -121,7 +145,7 @@ animation-fill-mode: backwards;
 
 */
 animation:color 10s linear 5 alternate 2s forwards,
-move 2s 5 alternate forwards;
+move 2s 20 alternate forwards;
 }
 .circle:hover{
    animation-play-state: paused;
@@ -146,4 +170,44 @@ move 2s 5 alternate forwards;
 		translate: 200px 0px;
 		/* transform: translate(200px, 0px); */
 	}
+}
+.animation-link{
+   /* color: #ee1561; */
+   font-size: 80px;
+   /* text-align: center; */
+   color: #0792f3;
+
+
+   
+}
+.button{
+   background: url("../img/battletoads/construction/starsky.gif")100%;
+   margin: 0px auto;
+   /* border: 15px solid RGB(59, 213, 25); */
+   width: 50%;
+}
+.first-element{
+   margin:0px auto;
+   /* background-color:RGB(48, 227, 16); */
+   background: url("../img/battletoads/construction/starsky.gif");
+   width: 70%;
+   height: 80%;
+   border-radius: 30%;
+   /* show animation */
+}
+.first-element:hover{
+   /* background-color:RGB(41, 251, 3); */
+   border: 5px solid #a807f3;
+   animation: title-flying 3s;
+   color: #0792f3;
+}
+.second-element{
+   margin:0px auto;
+   width: 70%;
+   height: 70%;
+   /* animation: rash-running 3s forwards; */
+}
+
+.second-element:hover{
+   animation: rash-running 3s;
 }

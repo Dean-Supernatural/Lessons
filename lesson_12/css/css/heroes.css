@@ -1,0 +1,261 @@
+.rash-toad{
+   position: absolute;
+   top:35%;
+   left: 5%;
+   width: 10%;
+   /* animation:rash-toad-appearance 1s 3s forwards;  */
+   /* restoring */
+   
+   /* animation: rash-toad-moving 1.5s 1.7s forwards; */
+   /* z-index: 10; */
+   animation:rash-toad-appearance 1s 54s forwards; 
+   /* треба відновити */
+   /* animation:rash-toad-appearance 1s 0s forwards; */
+   opacity: 0;
+   /* треба відновити */}
+.rash-toad-2{
+   position: absolute;
+   top:35%;
+   left: 5%;
+   width: 10%;
+   opacity: 0;
+   animation: rash-toad-moving 1.5s 95.8s forwards;
+   /* animation:rash-toad-moving-2 0.8s 2.8s forwards; */
+   /* animation: rash-toad-moving 1.5s 2s forwards; */
+   z-index: 200;
+   /* повторна поява реша в кінці */
+}
+.rash-punch{
+   width: 13%;
+   position: absolute;
+   top:35%;
+   left: 5%;
+   animation: toad-fight-scene 1.4s 96.1s forwards;
+   /* animation: toad-fight-scene 1s 4.4s forwards; */
+   opacity: 0;
+
+}
+.rash-toad-3{
+   position: absolute;
+   top:50%;
+   left: 5%;
+   width: 10%;
+   transform: translate(-300%,0) ;
+   /* transform: scale(1,-1); */
+   /* треба відновити */
+   animation: rash-toad-trick 1.3s 104.2s forwards;
+   z-index: 10;
+
+}
+.surf{
+   width: 15%;
+   position: absolute;
+   top:62%;
+   left: 6%;
+   z-index: 9;
+   transform: translate(500%,-1100%);
+   animation: rash-toad-trick-2 1.5s 104.1s;
+   /* opacity: 0; */
+}
+
+.rash-toad-4{
+   position: absolute;
+   top:50%;
+   left: 10%;
+   width: 10%;
+   z-index: 11;
+   opacity: 0;
+   animation: rash-toad-4-appearance 1s 105.4s 3.5;
+   /* затримка 0.29сек */
+}
+.toad-surprised{
+   position: absolute;
+   top:50%;
+   left: 10%;
+   width: 11%;
+   z-index: 12;
+   animation: surprising-moment 2s 109s 2;
+   opacity: 0;
+}
+.rash-toad-5{
+   position: absolute;
+   top:50%;
+   left: 10%;
+   width: 10%;
+   z-index: 13;
+   opacity: 0;
+   animation:rash-toad-5-moving 2s 113.2s forwards ;
+   /* просто рухаються */
+}
+.rash-toad-6{
+   position: absolute;
+   top:50%;
+   left: 10%;
+   width: 14%;
+   z-index: 25;
+   opacity: 0;
+   animation:rash-toad-6-moving 1.5s 115.2s forwards;
+   /* удар рукою */
+}
+.rash-toad-7{
+   position: absolute;
+   top:30%;
+   left: 40%;
+   width: 15%;
+   z-index: 21;
+   opacity: 0;
+   animation:rash-toad-7-moving 1.3s 117s forwards ;
+   /* удар ногою */
+}
+.rash-toad-8{
+   position: absolute;
+   top:30%;
+   left: 55%;
+   width: 10%;
+   z-index: 22;
+   opacity: 0;
+   animation:rash-toad-8-appearance 1s 118.5s forwards ;
+}
+
+
+.rash-new{
+   position: absolute;
+   top:35%;
+   left: 30%;
+   width: 10%;
+   z-index: 90;
+   opacity: 0;
+}
+.billy-lee{
+   width: 5%;
+   position: absolute;
+   top:10%;
+   left: 5%;
+   z-index: 5;
+   opacity: 0;
+   /* animation:rash-toad-appearance 1s 0s forwards; */
+   /* animation:rash-toad-appearance 1s 4s forwards; */
+   animation:rash-toad-appearance 1s 55.5s forwards;
+    /* треба відновити */
+   /* animation:billy-lee-moving 2s 2.2s forwards; */
+}
+.billy-kick{
+   width: 12%;
+   position: absolute;
+   top:10%;
+   left: 3%;
+   /* animation:billy-kick-striking 1.6s 1.3s forwards ; */
+   /* animation:billy-kick-striking 1.8s 92s forwards ; */
+   animation:billy-kick-striking 1.4s 97.5s forwards ;
+   /* first billy's kick */
+   opacity: 0;
+   z-index: 20;
+}
+.billy-lee-2{
+   width: 5%;
+   position: absolute;
+   top:10%;
+   left: 5%;
+   z-index: 5;
+   opacity: 0;
+   /* animation:rash-toad-appearance 1s 55.5s forwards; треба відновити */
+   animation:billy-lee-moving 2s 97.5s forwards;
+   /* animation:billy-lee-moving 2s 4s forwards; */
+}
+.billy-lee-3{
+   width: 5%;
+   position: absolute;
+   top:20%;
+   left:5%;
+   z-index: 15;
+   transform: translate(1400%,-300%);
+   animation:billy-rolling 2s 105s forwards;
+}
+.skateboard{
+   width: 11%;
+   position: absolute;
+   top:30%;
+   left: 2%;
+   z-index: 14;
+   transform: rotate(15deg) translate(600%, -900%);
+   animation: skate-rolling 1.9s 105s;
+   /* opacity: 0; */
+}
+.billy-lee-4{
+   /* animation: heroes-fly 2s 10s forwards; */
+   width: 5%;
+   position: absolute;
+   top:20%;
+   left:5%;
+   z-index: 17;
+   opacity: 0;
+   animation:rash-toad-4-appearance 1s 106.9s 2;
+}
+
+.boy-surprised{
+   position: absolute;
+   top:23%;
+   left: 4%;
+   width: 11%;
+   z-index: 13;
+   animation: surprising-moment 2s 109s 2;
+   opacity: 0;
+}
+
+.billy-lee-5{
+   /* animation: heroes-fly 2s 10s forwards; */
+   width: 5%;
+   position: absolute;
+   top:20%;
+   left:5%;
+   z-index: 14;
+   opacity: 0;
+   animation:billy-lee-5-moving 1s 113.1s forwards;
+   /* робить прогулянку */
+}
+
+.billy-lee-6{
+   /* animation: heroes-fly 2s 10s forwards; */
+   width: 13%;
+   position: absolute;
+   top:17%;
+   left:14%;
+   z-index: 20;
+   opacity: 0;
+    /* animation:billy-lee-5-moving 3s 8s forwards; */
+   animation:billy-lee-7-moving 0.8s 114.3s forwards;
+   /* удар з виприжки */
+}
+.billy-lee-7{
+   /* animation: heroes-fly 2s 10s forwards; */
+   width: 11%;
+   position: absolute;
+   top:28%;
+   left:32%;
+   z-index: 22;
+   opacity: 0;
+   animation:billy-lee-6-moving 1s 115.2s 2;
+   /* удар з розвороту */
+}
+.billy-lee-8{
+   /* animation: heroes-fly 2s 10s forwards; */
+   width: 5%;
+   position: absolute;
+   top:28%;
+   left:50%;
+   z-index: 20;
+   opacity: 0;
+   animation:billy-lee-8-appearance 1.5s 117.6s forwards ;
+
+   /* animation:billy-lee-7-moving 0.8s 9s forwards; */
+   /*  animation:rash-toad-8-appearance 1s 118.8s forwards ; */
+}
+
+.princess{
+   width: 7%;
+   position:absolute;
+   top:13%;
+   left: 42%;
+   animation:princess-appearance 3.8s 86.4s;
+   opacity: 0;
+}

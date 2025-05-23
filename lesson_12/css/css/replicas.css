@@ -1,0 +1,163 @@
+p{
+   font-size: 20px;
+   color: white;
+   text-align: center;
+}
+p:not(:last-child){
+margin-bottom: 10px;
+}
+.replicas p{ 
+   margin: 0 auto;
+   color:black;
+   font-size: 20px;
+   background-color: white;
+   width: 200px;
+   height: 200px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+.replicas p:nth-child(1){
+   
+   font-size: 20px;
+   width: 200px;
+   height: 100px;
+   border-radius: 50%;
+   padding-top: 20px;
+   position: absolute;
+   top:45%;
+   left: 14%;
+   /* rash */
+   animation: rash-replica-one 4s 54.5s forwards;
+   /* animation: rash-replica-one 4s 3s forwards; */
+   opacity: 0;
+}
+.replicas p:nth-child(2){
+   
+   font-size: 20px;
+   width: 235px;
+   height: 120px;
+   border-radius: 50%;
+   padding-top: 10px;
+   position: absolute;
+   top:11%;
+   left: 10%;
+   /* billy */
+   opacity: 0;
+   /* animation: billy-replica-one 4s 5s; */
+   animation: billy-replica-one 4s 56.5s;
+}
+.replicas p:nth-child(3){
+   font-size: 20px;
+   width: 235px;
+   height: 120px;
+   border-radius: 50%;
+   padding-top: 10px;
+   position: absolute;
+   top:45%;
+   left: 14%;
+   /* rash-2 */
+   opacity: 0;
+   animation: rash-replica-two 5s 60.5s;
+   /* animation: rash-replica-two 5s 8s; */
+}
+.replicas p:nth-child(4){
+   width: 10%;
+   font-size: 20px;
+   width: 235px;
+   height: 120px;
+   border-radius: 50%;
+   padding-top: 15px;
+   position: absolute;
+   top:7%;
+   left: 60%;
+   /* dark queen */
+   opacity: 0;
+   animation: dark-queen-replica 4s 79s ;
+}
+.replicas p:nth-child(5){
+   font-size: 20px;
+   width: 250px;
+   height: 170px;
+   border-radius: 50%;
+   padding-top: 20px;
+   position: absolute;
+   top:8%;
+   left: 10%;
+   z-index: 3;
+   opacity: 0;
+   /* billy-2 */
+   /* animation: billy-replica-two 6s 10s; */
+   animation: billy-replica-two 6s 65.5s;
+}
+.replicas p:nth-child(6){
+   font-size: 20px;
+   width: 320px;
+   height: 200px;
+   border-radius: 50%;
+   padding-top: 10px;
+   position: absolute;
+   bottom:8%;
+   left: 60%;
+   opacity: 0;
+   /* abobo */
+   /* animation:abobo-replica 9s 12s cubic-bezier(.96,.72,.53,1.87); */
+   animation:abobo-replica 11s 71s cubic-bezier(.01,1.24,.01,1.24);
+}
+.replicas p:nth-child(7){
+   font-size: 20px;
+   width: 250px;
+   height: 170px; 
+   padding-top: 30px;
+   position: absolute;
+   top:40%;
+   left: 14%;
+   border-radius: 50%;
+   opacity: 0;
+   /* rash-3 */
+   /* animation:rash-replica-three 4s 15s ; */
+   animation:rash-replica-three 4s 83s ;
+}
+.replicas p:nth-child(8){
+   font-size: 20px;
+   width: 250px;
+   height: 170px; 
+   padding-top: 22px;
+   position: absolute;
+   top:10%;
+   left: 26%;
+   border-radius: 50%;
+   opacity: 0;
+   /* princess */
+   animation: princess-replica 4.1s 86.2s;
+   /* animation: princess-replica 5.5s 86.2s; */
+}
+.replicas p:nth-child(9){
+   width: 10%;
+   font-size: 20px;
+   width: 235px;
+   height: 120px;
+   border-radius: 50%;
+   padding-top: 10px;
+   position: absolute;
+   top:45%;
+   left: 14%;
+   /* rash-2 */
+   opacity: 0;
+   animation: rash-replica-two 5s 90s;
+   /* animation: rash-replica-two 5s 8s; *; */
+}
+.billy-sign{
+   color: brown;
+}
+.princess-sign{
+   color: rgba(220, 9, 44, 0.701);
+}
+.abobo-sign{
+   color: blue;
+}
+.rash-sign{
+   color: green;
+}
+.darkqueen-sign{
+   color:red;
+}

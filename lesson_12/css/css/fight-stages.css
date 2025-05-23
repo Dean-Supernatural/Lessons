@@ -1,0 +1,47 @@
+.fight-stage{
+   width: 100%;
+   position: relative;
+   /* transform:translate( 0%,-26%) ; */
+   /* height: 900px; */
+   transform: translate( -200%,-26%); 
+   animation:fight-stage-moving 3s 50s forwards;
+   /* треба відновити */
+   /* z-index: 7; */
+}
+.fight-stage-2{
+   width: 100%;
+   position:absolute;
+   top: 0;
+   left: 0;
+   z-index: 5;
+   opacity: 0;
+   transform: translate(-200%,0 );
+   
+   animation: fight-stage-2-moving 2s 99.8s forwards;
+}
+.fight-stage-3{
+   width: 100%;
+   position:absolute;
+   top: 0;
+   left: 0;
+   z-index: 4;
+   opacity: 0;
+   /* transform: translate(-200%,0 ); */
+   animation:appearance-fight-zone 0.1s 110.5s forwards;
+}
+
+
+audio{
+   /* text-align: right; */
+   opacity: 0;
+   position: absolute;
+   left: 0;
+   top: 0;
+   animation: audio-button 0.8s 22s 10;
+}
+audio:hover{
+   opacity: 1;
+   /* position: absolute; */
+   /* left: 0; */
+   /* top: 0; */
+}

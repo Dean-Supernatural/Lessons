@@ -1,0 +1,1577 @@
+   /* ==================================== */
+   /* =========Вступні титри=============== */
+   @keyframes logo-1 {
+   0% {opacity: 0;
+      display: none;
+		
+	}
+   50%{
+      opacity: 1;
+      display: block;
+   }
+	100% {
+		opacity: 0;
+      display: none;
+}
+}
+@keyframes logo-2 {
+   0% {opacity: 0;
+      display: none;
+		
+	}
+   50%{
+      opacity: 1;
+      display: block;
+   }
+	100% {
+		opacity: 0;
+      display: none;
+}
+}
+@keyframes logo-3 {
+   0% {opacity: 0;
+      display: none;
+		
+	}
+   50%{
+      opacity: 1;
+
+      display: block;
+   }
+	100% {
+		opacity: 0;
+      display: none;
+}
+}
+@keyframes logo-4 {
+   0% {opacity: 0;
+      display: none;
+		
+	}
+   50%{
+      opacity: 1;
+      display: block;
+   }
+	100% {
+		opacity: 0;
+      display: none;
+}
+}
+
+@keyframes logo-5 {
+   0% {opacity: 0;
+      display: none;
+		
+	}
+   50%{
+      opacity: 1;
+      display: block;
+   }
+	100% {
+		opacity: 0;
+      display: none;
+}
+}
+/* =========================== */
+/* ========Вступна частина======= */
+
+@keyframes main-theme {
+   0% {opacity: 0;
+      /* display: none; */
+      transform: translate(0%,-100%);
+      
+	}
+   
+   50%{
+      opacity: 1;
+      /* display: block; */
+      transform: translate(0, 100%) rotate(360deg);
+   }
+   80%{
+      opacity: 1;
+      /* display: block; */
+      /* transform: translate(0, 50%); */
+      /* transform: rotateX(180deg); */
+      
+      
+   }
+   
+	100% {
+		opacity: 1;
+      /* display: block; */
+      transform: translate(0, 0) rotate(360deg);
+      /* transform: rotateX(360deg); */
+}
+}
+@keyframes first-sign{
+   0% {
+      transform: translate(-100%, 0%);
+      
+	}
+   
+   
+   
+	100% {
+		transform: translate(0%, 0%);
+}
+
+}
+@keyframes second-sign{
+   0% {
+      transform: translate(0%, 0%);
+      opacity: 0;
+	}
+   
+   20%{
+      transform: translate(0%, 0%);
+      opacity: 1;
+	}
+   30%
+   {
+      transform: translate(0%, 0%);
+      opacity: 0;
+	}
+   40%
+   {
+      transform: translate(0%, 0%);
+      opacity: 1;
+	}
+   50%
+   {
+      transform: translate(0%, 0%);
+      opacity: 0;
+	}
+   60%
+   {
+      transform: translate(0%, 0%);
+      opacity: 1;
+	}
+   70%
+   {
+      transform: translate(0%, 0%);
+      opacity: 0;
+	}
+   80%
+   {
+      transform: translate(0%, 0%);
+      opacity: 1;
+	}
+   90%
+   {
+      transform: translate(0%, 0%);
+      opacity: 0;
+	}
+   
+	100% {
+		transform: translate(0%, 0%);
+      opacity: 1;
+      color:white;
+}
+
+}
+@keyframes third-sign{
+   0% {
+      transform: translate(100%, 0%);
+      
+	}
+   
+   
+   
+	100% {
+		transform: translate(0%, 0%);
+}
+
+}
+@keyframes fourth-sign{
+   0% {
+      transform: translate(0%, 100%);
+      
+	}
+   
+   
+   
+	100% {
+		transform: translate(0%, 0%);
+}
+}
+@keyframes dissapearing-titles{
+   0% {
+      
+	}
+   
+	100% {
+	opacity: 0;
+}
+}
+@keyframes one-player{
+   0% {
+      opacity: 0;
+}
+   
+	100% {
+      opacity: 1;
+}
+}
+@keyframes circle-appearance{
+   0% {
+      opacity:0;
+}
+50%{
+   opacity: 1;
+}
+   
+	100% {
+      opacity:0;
+}
+}
+@keyframes circle-appearance-2{
+   0% {
+      opacity: 1;
+}
+50%{
+   opacity: 1;
+}
+   
+	100% {
+      opacity: 1;
+}
+}
+/* ============================== */
+/* ==========Construction======= */
+@keyframes part-one-disappearance{
+   0% {
+      /* transform: translate(100%, 0%); */
+      opacity: 1;
+	}
+   100% {
+		/* transform: translate(0%, 0%); */
+      opacity: 0;
+}
+}
+@keyframes part-two-disappearance{
+   0% {
+      /* transform: translate(100%, 0%); */
+      opacity: 1;
+	}
+   100% {
+		/* transform: translate(0%, 0%); */
+      opacity: 0;
+}
+}
+/* ===================================== */
+/* ============Вибір гравців============ */
+   @keyframes menu-heroes{
+   0% {
+      /* transform: translate(100%, 0%); */
+      opacity: 0;
+	}
+   100% {
+		/* transform: translate(0%, 0%); */
+      opacity:1;
+}
+}
+@keyframes menu-choosing{
+   0% {
+      /* transform: translate(0%, -100%); */
+         opacity: 0;}
+	
+   100% {
+		/* transform: translate(0, 0); */
+      opacity: 1;
+}
+}
+@keyframes choosing-rash{
+   0% {opacity: 50%;
+   } 
+   50%{
+      transform: scale(1.2);
+   }
+         100% {
+            transform:scale(1.2) translate(-500%, 0);
+            opacity: 1;
+      }
+
+
+}
+@keyframes choosing-billy{
+0% {opacity: 50%;
+
+} 
+50%{
+   transform: scale(1.2);
+}
+      100% {
+         transform:translate(-400%, 0%) scale(1.2) ;
+         opacity: 1;
+   }
+}
+/* =============================================== */
+/* =============================================== */
+@keyframes toad{
+   0% {
+		/* background-color: #77608d; */
+	}
+   50%{
+      /* transform: translate(1000px, 0px); */
+   }
+	100% {
+		/* transform: translate(1000px, 0px); */
+	}
+}
+@keyframes wheeler{
+   0% {
+	
+	}
+
+	100% {
+      transform: rotate(360deg);
+      opacity: 1;
+	}
+}
+@keyframes spaceship-appearance{
+   0% {
+      opacity: 0;
+	
+	}
+
+	100% {
+      opacity: 1;
+	}
+}
+
+   @keyframes rash-toad-appearance{
+      0% {
+         opacity: 0;
+      
+      }
+      50%{
+         /* opacity: 1; */
+      }
+   
+      100% {
+         opacity: 1;
+      }
+   }
+   /* ================================ */
+   /* ==========Replicas============== */
+      @keyframes rash-replica-one{
+      0% {
+         opacity: 0;
+      
+      }
+      50%{
+         opacity: 1;
+      }
+   
+      100% {
+         opacity: 0;
+      }
+   }
+   @keyframes billy-replica-one{
+      0% {
+         opacity: 0;
+      
+      }
+      50%{
+         opacity: 1;
+      }
+   
+      100% {
+         opacity: 0;
+      }
+   }
+   @keyframes rash-replica-two{
+      0% {
+         opacity: 0;
+      
+      }
+      50%{
+         opacity: 1;
+      }
+   
+      100% {
+         opacity: 0;
+      }
+   }
+   @keyframes billy-replica-two{
+      0% {
+         opacity: 0;
+      
+      }
+      50%{
+         opacity: 1;
+      }
+   
+      100% {
+         opacity: 0;
+      }
+   }
+   @keyframes abobo-replica{
+      0% {
+         opacity: 0;
+      
+      }
+      50%{
+         opacity: 1;
+      }
+   
+      100% {
+         opacity: 0;
+      }
+   }
+   @keyframes rash-replica-three{
+      0% {
+         opacity: 0;
+      
+      }
+      50%{
+         opacity: 1;
+      }
+   
+      100% {
+         opacity: 0;
+      }
+   }
+   @keyframes princess-replica{
+      0% {
+         opacity: 0;
+      
+      }
+      10%{
+      }
+      20%{
+         
+      }
+      50%{
+         opacity: 1;
+   
+      }
+      80%{
+         /* transform: translate(0,-150%); */
+         }
+      85%{
+         /* transform: translate(0,-250%); */
+         }
+      90%{
+         /* transform: translate(0,-350%); */
+         }
+         95%{
+            /* transform: translate(0,-450%); */}
+      100% {
+         /* transform: translate(0,-500%); */
+         opacity: 0;
+      }
+   }
+   @keyframes dark-queen-replica{
+      0% {
+         opacity: 0;
+      
+      }
+      50%{
+         opacity: 1;
+      }
+   
+      100% {
+         opacity: 0;
+      }
+   }
+   
+   /* ============================= */
+   /* ========Villains============= */
+   @keyframes abobo-appearance{
+      0% {
+         opacity: 1;
+         transform: translate(0%,100%);
+      
+      }
+      50%{
+         opacity: 1;
+         transform: translate(0%,0%);
+      }
+   
+      90%{ transform: translate(0%,100%);
+         opacity: 0;
+      }
+      100% {
+         transform: translate(0%,100%);
+         opacity: 0;
+      }
+   }
+   @keyframes dark-queen-fade {
+      0% {
+         opacity: 1;
+      
+      }
+      50%{
+         /* opacity: 0; */
+      }
+   
+      100% {
+         opacity: 0;
+      }
+   }
+   
+   @keyframes dark-queen-rocket-appearance{
+      0% {
+         /* transform: translate(0%,200%); */
+         opacity: 1;
+      
+      }
+      49%{opacity: 1  ;}
+
+      50%{
+         opacity:   0   ;
+         /* transform: translate(0%,0%); */
+      }
+      80%{ 
+         opacity: 0;
+      }
+      99%{opacity: 0; 
+      }
+      100% {
+         opacity: 0;
+      }
+   }
+   @keyframes dark-queen-movement{
+      0% {opacity: 1;
+      
+      }
+      50%{
+         /* transform: translate(-20%,0%); */
+      }
+   
+      80% {
+         
+      }
+      100%{
+         transform: translate(-135%,0%);
+         opacity: 0;
+      }
+   }
+   @keyframes dark-queen-rocket-launching{
+      0% {
+         opacity: 1;
+      
+      }
+   50%{transform: translate(0%,-200%);
+   }
+      100%{
+         /* transform: translate(0%,-200%); */
+         opacity: 0;
+      }
+   }
+   /* =================================== */
+   /* =========Princess================== */
+      @keyframes princess-appearance{
+      0% {
+         opacity:0;
+      
+      }
+      50%{
+         opacity: 1;
+      }
+   
+      100% {
+         opacity: 0;
+      }
+   }
+   /* =============================== */
+   /* ===Starship-Troopers=========== */
+   @keyframes space-boat-moving{
+      0% { opacity: 0;
+         transform: translate(0%,-100%);
+         }
+      
+      40%{opacity: 1;
+         transform: translate(-350%,0%);
+         
+      }
+      50%{opacity: 1;
+      }
+   99%{
+      opacity: 1;
+         transform: translate(-750%,0)
+   }
+      100% {opacity: 0;
+         transform: translate(-750%,0);
+         
+      }
+   }
+   @keyframes space-paratrooper-moving{
+      0% { opacity:0;
+         transform: translate(0%,-100%);
+      
+      }
+      40%{opacity: 1;
+         transform: translate(-550%,0%);
+         
+      }
+      50%{opacity: 1;
+         transform: translate(-550%,120%);
+      
+      }
+   
+      100% {
+         transform: translate(0%,-200%) rotate(45deg);
+         opacity: 1;
+      }
+   }
+   @keyframes space-boat-blue-moving{
+      0% { transform: translate(0%,-100%);
+         opacity: 0;
+      }
+      
+      40%{
+         transform: translate(-130%,0%);
+      }
+      50%{
+         opacity: 1;
+      }
+   99%{
+      transform: translate(-550%,0);
+         opacity: 1;
+   }
+      100% {
+         transform: translate(-550%,0);
+         opacity: 0;
+      }
+   }
+   
+   @keyframes space-paratrooper-yellow-moving{
+      0% {transform: translate(0%,-100%);
+         opacity: 0;
+      }
+      40%{
+         transform: translate(-250%,0%);
+         opacity: 1;
+      }
+      50%{
+         transform: translate(-250%,20%);
+         opacity: 1;
+      }
+      70%{
+         transform: translate(-250%,20%);
+         opacity: 1;
+      }
+      80%{
+         transform: translate(210%,20%);
+         opacity: 1;
+      }
+      90%{
+         transform: translate(210%, 0) rotate(360deg);
+         opacity: 1;
+      }
+      100% {
+         opacity: 1;
+         transform: translate(210%,-200%) rotate(360deg);
+         /*transform: translate(0%,-200%)  */
+      }
+   }
+   /* =============================================== */
+   /* ===================Toads======================= */
+   @keyframes toad-fight-scene{
+      0% {
+         opacity:1;
+      
+      }
+      50%{
+         opacity: 1;
+      }
+   
+      80%{
+         transform: translate(190%,0);
+      }
+      100% {
+         transform: translate(190%,0);
+         opacity:0;
+   }
+}
+@keyframes rash-disappearing{
+   0% {
+      opacity:0;
+   
+   }
+   50%{
+      opacity: 0;
+   }
+
+
+   100% {
+      opacity: 0;
+}
+}
+@keyframes rash-toad-moving{
+   0% {
+      opacity:0;
+   
+   }
+   50%{
+      opacity: 0;
+   }
+
+   80%{transform: translate(250%,0);
+      opacity: 0;
+   }
+   100% {
+      transform: translate(250%,0);
+      opacity: 1;
+}
+}
+@keyframes rash-toad-moving-2{
+   0% {
+      opacity:0;
+   
+   }
+   50%{
+   }
+
+   100% {
+      opacity: 1;
+}
+}
+/* ==================================== */
+/* =========Dragons&Toads============== */
+@keyframes billy-kick-striking{
+   0% {opacity: 0;
+   }
+   50%{opacity: 1;
+   }
+
+   100% {
+      opacity: 0;
+      transform: translate(270%, 0) rotate(-25deg);
+}
+}
+@keyframes billy-lee-moving{
+   0% {opacity: 0;
+   
+   }
+   50%{opacity: 0;
+   }
+   80% {
+      opacity: 1;
+      transform: translate(600%, 0);
+   }
+   100% {
+      opacity: 1;
+      transform: translate(600%, 0);
+}
+}
+@keyframes rash-toad-trick{
+   0% {
+      transform: translate(700%, -400%);
+      /* opacity: 0; */
+      /* rotate(245deg) */
+   
+   }
+   99%{
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+      transform: translate(50%, 0%);
+   }
+}
+@keyframes rash-toad-trick-2{
+   0% {
+      transform: translate(500%,-1100%) rotate(-15deg);
+      /* opacity: 0; */
+      /* rotate(245deg) */
+   
+   }
+   
+   
+   100% {
+      /* opacity: 0; */
+      transform: translate(0%, 0%)  rotate(-15deg);
+   }
+}
+
+@keyframes rash-toad-4-appearance{
+   0% {
+      opacity: 1;
+   }
+   99%{
+      opacity: 1;
+   }
+   
+   100% {
+      opacity: 0;
+      /* transform: translate(0%, 0%)  rotate(-15deg); */
+   }
+}
+@keyframes surprising-moment {
+   0% {
+      opacity: 1;
+      transform: translate(-20%,0);
+   }
+   10% {
+      transform: translate(-30%,0);
+   }
+   20%{
+      transform: translate(-40%,0);
+   }
+   99%{
+      opacity: 1;
+   }
+   
+   100% {
+      opacity: 0;
+      /* transform: translate(0%, 0%)  rotate(-15deg); */
+   }
+}
+@keyframes skate-rolling{
+   0% {transform: translate(700%,-440%);
+   }
+
+   100% {
+      opacity: 1;
+      transform:translate(0%, 0%);
+      }
+}
+@keyframes skate-disappearing{
+   0% {
+      opacity: 1;
+   }
+80%{
+   opacity: 1;
+   }
+   100% {
+      opacity: 0;
+      }
+}
+
+@keyframes billy-rolling{
+   0% {
+      /* opacity: 0; */
+      transform: translate(1450%,-300%);
+   
+   }
+   50%{
+      /* transform: translate(-50%, -200%); */
+   }
+   99% {
+      opacity: 1;
+      /* transform: translate(-30%, -50%); */
+   }
+   100% {
+      opacity: 0;
+      transform: translate(0%, 0);
+      
+}
+}
+/* ===================================== */
+/* ========Fight-Stages================= */
+@keyframes fight-stage-moving {
+   0% {
+   
+   }
+   50%{
+   }
+   80% {
+      
+      
+   }
+   100% {
+      opacity: 1;
+      transform: translate(0%, -26%);
+}
+}
+@keyframes fight-stage-2-moving{
+   0% {
+   
+   }
+   50%{
+   }
+   80% {
+      
+      
+   }
+   100% {
+      opacity: 1;
+      transform: translate(0%, 0%);
+}
+}
+@keyframes pre-breaking{
+   0% {
+      opacity:0;
+   }
+   99%{
+      /* opacity: 1; */
+   }
+   100% {
+      /* display: none; */
+      /* opacity: 0; */
+      opacity: 1;
+}
+
+}
+/* ============================================= */
+/* ===========Flying building blocks============ */
+@keyframes breaking{
+   0% {
+      opacity: 1;
+      transform: translate(0%, 0%);
+   }
+   20%{
+      opacity: 1;
+      transform: translate(-250%, -200%) rotate(90deg);
+   }
+   30%{
+      opacity: 1;
+      transform: translate(-300%, -300%) rotate(120deg);
+   }
+   50%{opacity: 1;
+      transform: translate(-350%, -400%) rotate(145deg);
+   }
+   80% {opacity: 1;
+      transform: translate(-400%, -450%) rotate(180deg); 
+   }
+   100% {
+      opacity: 1;
+      transform: translate(-600%, -400%) rotate(360deg);
+}
+}
+@keyframes breaking-2{
+   0% {
+      opacity: 1;
+      transform: translate(0%, 0%);
+   }
+   20%{
+      opacity: 1;
+      transform: translate(-250%, 400%) rotate(90deg);
+   }
+   30%{
+      opacity: 1;
+      transform: translate(-300%, 450%) rotate(120deg);
+   }
+   50%{opacity: 1;
+      transform: translate(-350%, 500%) rotate(145deg) ;
+   }
+   80% {
+      opacity: 1;
+      transform: translate(-400%, 600%) rotate(180deg) 
+   }
+   100% {
+      opacity: 1;
+      transform: translate(-500%, 700%) rotate(360deg) ;
+}
+}
+@keyframes breaking-3{
+   0% {
+      opacity: 1;
+      transform: translate(0%, 0%);
+   }
+   20%{
+      transform: translate(-250%, 0%) rotate(90deg);
+   }
+   30%{
+      transform: translate(-300%, 0%) rotate(120deg);
+   }
+   50%{transform: translate(-350%, 0%) rotate(145deg) ;
+   }
+   80% {
+      transform: translate(-400%, 0%) rotate(180deg) 
+   }
+   100% {
+      opacity: 1;
+      transform: translate(-500%,0%) rotate(360deg) ;
+}
+}
+@keyframes breaking-4{
+   0% {
+      opacity: 1;
+      transform: translate(0%, 0%);
+   }
+   20%{
+      transform: translate(-250%, -100%) rotate(90deg);
+   }
+   30%{
+      transform: translate(-300%, -200%) rotate(120deg);
+   }
+   50%{transform: translate(-350%, -300%) rotate(145deg) ;
+   }
+   80% {
+      transform: translate(-400%, -400%) rotate(180deg) 
+   }
+   100% {
+      opacity: 1;
+      transform: translate(-500%,-500%) rotate(360deg) ;
+}
+}
+@keyframes breaking-5{
+   0% {
+      opacity: 1;
+      transform: translate(0%, 0%);
+   }
+   20%{
+      transform: translate(-250%, -200%) rotate(90deg);
+   }
+   30%{
+      transform: translate(-300%, -400%) rotate(120deg);
+   }
+   50%{transform: translate(-350%, -600%) rotate(145deg) ;
+   }
+   80% {
+      transform: translate(-400%, -800%) rotate(180deg) 
+   }
+   100% {
+      opacity: 1;
+      transform: translate(-500%,-1000%) rotate(360deg) ;
+}
+}
+@keyframes breaking-6{
+   0% {
+      opacity: 1;
+      transform: translate(0%, 0%);
+   }
+   20%{
+      transform: translate(0%, -200%) rotate(90deg);
+   }
+   30%{
+      transform: translate(0%, -400%) rotate(120deg);
+   }
+   50%{transform: translate(0%, -800%) rotate(145deg) ;
+   }
+   80% {
+      transform: translate(0%, -800%) rotate(180deg) ;}
+   100% {
+      opacity: 1;
+      transform: translate(0%,-1200%) rotate(360deg) ;
+}
+}
+@keyframes breaking-7{
+   0% {
+      opacity: 1;
+      transform: translate(0%, 0%);
+   }
+   /* 20%{
+      transform: translate(-100%, -200%) rotate(90deg);
+   }
+   30%{
+      transform: translate(-200%, -400%) rotate(120deg);
+   }
+   50%{transform: translate(-400%, -800%) rotate(145deg) ;
+   }
+   80% {
+      transform: translate(-500%, -800%) rotate(180deg) ;} */
+   100% {
+      opacity: 1;
+      transform: translate(-400%,-1200%);
+}
+}
+@keyframes breaking-8{
+   0% {
+      opacity: 1;
+      transform: translate(0%, 0%);
+   }
+   20%{
+      transform: translate(-100%, -200%) rotate(360deg);
+   }
+   30%{
+      transform: translate(-200%, -400%) rotate(360deg);
+   }
+   50%{transform: translate(-400%, -800%) rotate(360deg);
+   }
+   80% {
+      transform: translate(-800%, -1200%) rotate(360deg);
+   }
+   100% {
+      opacity: 1;
+      transform: translate(-900%,-1600%);
+}
+}
+
+/* ================================== */
+/*==========Billy-lee-moving======== */
+@keyframes billy-lee-5-moving{
+   0% {
+      transform: translate(0%, 10%);
+      opacity: 1;
+   }
+   10%{
+      /* transform: translate(50%, 30%); */
+      opacity: 1;
+   }
+   20%{
+      /* transform: translate(80%, 50%); */
+      opacity: 1;
+   }
+   30%{
+      /* transform: translate(100%, 100%); */
+      opacity: 1;
+   }
+
+   50%{
+      /* transform: translate(200%, 200%); */
+      opacity: 1;
+   }
+   80% {
+      opacity: 1;
+      /* transform: translate(300%, 200%); */
+   }
+   99%{
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+      transform: translate(300%, 0%);
+}
+}
+@keyframes billy-lee-6-moving{
+   0%{ 
+      opacity: 0;
+      transform: translate(0%, 0%);}
+      1%{
+         opacity: 1;
+      }
+      99%{
+         opacity: 1;
+         transform: translate(150%, -50%) rotateY(360deg);
+
+      }
+      100%{
+         opacity: 0;
+
+      }
+}
+@keyframes billy-lee-7-moving{
+   0%{ opacity: 0;
+      transform: translate(0%, 0%);}
+      1%{
+         opacity: 1;
+      }
+      99%{
+         opacity: 1;
+         transform: translate(150%, 50%)
+      }
+      100%{
+         opacity: 0;
+
+      }
+}
+@keyframes billy-lee-8-appearance{
+   0% {
+      opacity: 1;
+   }
+   50%{
+      transform: translate(-150%, 0);
+   }
+   100% {
+      transform: translate(0, 0);
+      opacity: 1;
+   }
+}
+/* ========================================= */
+/* =============Rash-moving================= */
+@keyframes rash-toad-5-moving{
+   0% {
+      transform: translate(0%, 10%);
+      opacity: 1;
+   }
+   10%{
+      /* transform: translate(50%, 30%); */
+      opacity: 1;
+   }
+   20%{
+      /* transform: translate(80%, 50%); */
+      opacity: 1;
+   }
+   30%{
+      /* transform: translate(100%, 100%); */
+      opacity: 1;
+   }
+
+   50%{
+      /* transform: translate(200%, 200%); */
+      opacity: 1;
+   }
+   80% {
+      opacity: 1;
+      /* transform: translate(300%, 200%); */
+   }
+   99%{
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+      transform: translate(100%, -90%);
+}
+}
+@keyframes rash-toad-6-moving{
+   0% {
+      transform: translate(80%, -90%);
+      opacity: 1;
+   }
+   10%{
+      /* transform: translate(50%, 30%); */
+      opacity: 1;
+   }
+   20%{
+      /* transform: translate(80%, 50%); */
+      opacity: 1;
+   }
+   30%{
+      /* transform: translate(100%, 100%); */
+      opacity: 1;
+   }
+
+   50%{
+      /* transform: translate(200%, 200%); */
+      opacity: 1;
+   }
+   80% {
+      opacity: 1;
+      /* transform: translate(300%, 200%); */
+   }
+   99%{
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+      transform: translate(280%, -90%);
+}
+}
+@keyframes rash-toad-7-moving{
+   0% {
+      transform: translate(0%, 0%);
+      opacity: 1;
+   }
+   10%{
+      /* transform: translate(50%, 30%); */
+      opacity: 1;
+   }
+   20%{
+      /* transform: translate(80%, 50%); */
+      opacity: 1;
+   }
+   30%{
+      /* transform: translate(100%, 100%); */
+      opacity: 1;
+   }
+
+   50%{
+      /* transform: translate(200%, 200%); */
+      opacity: 1;
+   }
+   80% {
+      opacity: 1;
+      /* transform: translate(300%, 200%); */
+   }
+   99%{
+      opacity: 1;
+      transform: translate(50%, -20%) rotate(-15deg);
+   }
+   100% {
+      opacity: 0;
+      
+}
+}
+@keyframes rash-toad-8-appearance{
+   0% {
+      opacity: 1;
+   }
+   50%{
+   }
+   100% {
+      opacity: 1;
+   }
+}
+/* ======================================= */
+/* ==================Abobo================ */
+@keyframes abobo-starting{
+   0% {
+      transform: translate(0%, 0%);
+      opacity: 1;
+   }
+   10%{
+      opacity: 1;
+   }
+   20%{
+      transform: translate(-150%, 20%);
+      opacity: 1;
+   }
+   30%{
+      transform: translate(-200%, 20%);
+      opacity: 1;
+   }
+
+   50%{transform: translate(-300%, 20%);
+      opacity: 1;
+   }
+   80% {
+      opacity: 1;
+      transform: translate(-400%, 20%);
+   }
+   100% {
+      opacity: 0;
+      transform: translate(-400%, 20%);
+}
+}
+
+@keyframes abobo-boss-moving{
+   0% {  opacity: 1;
+      transform: translate(-400%, 20%);
+   }
+   20%{opacity: 1;
+      transform: translate(-250%, 20%);
+   }
+   33%{opacity: 1;
+      transform: translate(-150%, 20%) rotate(45deg);
+   }
+   50%{opacity: 1;
+      transform: translate(-110%, 20%);
+   }
+   80% {
+      opacity: 1;
+      transform: translate(-100%, 10%) ;
+   }
+   90%{
+      transform: translate(-200%, -200%) rotate(45deg);
+      opacity: 1;
+   }
+   99%{
+      transform: translate(-200%, -200%) rotateY(90deg);
+      opacity: 1;
+   }
+
+   100% {
+      opacity: 0;
+      transform: translate(-200%, -200%);
+}
+}
+@keyframes abobo-falling{
+   0% {
+   
+   }
+   50%{
+   }
+   80% {
+      
+      /* transform: translate(-200%, 380%); */
+      opacity: 1;
+}
+90%{
+   opacity: 1;
+   transform: translate(-150%, 370%);
+}
+99%{
+   transform: translate(-150%, 390%) scale(0.2)
+}
+   100% {
+      opacity: 0;
+      transform: translate(-150%, 390%) scale(0.3);
+}
+}
+
+@keyframes building-sample{
+   0% {
+      opacity: 1;
+   
+   }
+   
+   100% {
+      display: none;
+      opacity: 0;
+
+}
+}
+
+/* =============================== */
+/* =============Frames============ */
+@keyframes rash-frame{
+   0% {
+      /* opacity: 0; */
+   
+   }
+   1% {
+      /* border: 15px double blue; */
+      /* opacity: 1; */
+   
+   }
+   50%{
+   }
+   80% {
+      
+      /* transform: translate(-200%, 380%); */
+      opacity: 1;
+               }
+   90%{
+         }
+   100% {
+      border: 15px double blue;
+
+}
+}
+@keyframes billy-frame{
+   0% {
+      /* opacity: 0; */
+   
+   }
+   1% {
+      /* border: 15px double blue; */
+      /* opacity: 1; */
+   
+   }
+   50%{
+   }
+   80% {
+      
+      /* transform: translate(-200%, 380%); */
+      opacity: 1;
+               }
+   90%{
+         }
+   100% {
+      border: 15px double rgb(255, 0, 0);
+
+}
+}
+@keyframes player-one{
+   0% {
+      /* opacity: 0; */
+   
+   }
+   1% {
+      /* border: 15px double blue; */
+      /* opacity: 1; */
+   
+   }
+   50%{
+   }
+   80% {
+      
+      /* transform: translate(-200%, 380%); */
+      opacity: 1;
+               }
+   90%{
+         }
+   100% {
+      color: white;
+
+}
+}
+@keyframes block-1-appearance{
+   0% {
+      opacity:1;
+   
+   }
+   1% {
+      /* border: 15px double blue; */
+      /* opacity: 1; */
+   
+   }
+   50%{
+   }
+   80% {
+      
+      /* transform: translate(-200%, 380%); */
+      /* opacity: 1; */
+               }
+   99%{opacity:1;
+         }
+   100% {
+      opacity: 0;
+      /* color: white; */
+
+}
+}
+@keyframes sub-block-1-disappearance{
+   0% {
+      /* opacity:1; */
+   
+   }
+   1% {
+      /* border: 15px double blue; */
+      /* opacity: 1; */
+   
+   }
+   50%{
+   }
+   80% {
+      
+      /* transform: translate(-200%, 380%); */
+      opacity: 1;
+               }
+   90%{
+         }
+   100% {
+      opacity: 0;
+      /* color: white; */
+
+}
+}
+@keyframes appearance-fight-zone{
+   0% {
+      opacity:0;
+   
+   }
+   
+   100% {
+      opacity: 1;
+      /* color: white; */
+
+}
+}
+/* =============================== */
+/* =============Final============= */
+@keyframes final-show{
+   0% {
+      transform: scale(0.01) translate(-10%, -100%);
+      opacity:1;
+   
+   }
+   10%{
+      /* transform: scale(0.01) translate(-10%, -30%); */
+   }
+   50%{
+      transform: scale(0.05) translate(0%, -2350%);
+   }
+   90%{
+      transform: scale(0.1) translate(0%, -4500%)
+   }
+   100% {
+      opacity: 1;
+      /* color: white; */
+      transform: scale(1) translate(0, 0);
+      width: 100%;
+
+}
+}
+@keyframes title-flying{
+   0% {
+   }
+   50% {
+      transform:translate(0%, 100%);
+   }
+   100% {
+      opacity: 1;
+
+}
+}
+@keyframes rash-running{
+   0% {
+   }
+   50% {
+      transform:translate(-38%, 0%);
+   }
+   100% {
+      opacity: 1;
+
+}
+}
+/* ======================================= */
+/*========== Audio-button================= */
+@keyframes audio-button{
+   0% {
+   }
+   50% {
+   
+   }
+   100% {
+      opacity: 1;
+
+}
+}
+/* audio-button */
+/* ===Thanks for watching=== */

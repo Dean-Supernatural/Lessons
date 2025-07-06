@@ -1,0 +1,145 @@
+body{
+background-color: #F8F8F8;
+/* background-color: white; */
+}
+.wrapper{
+   display: flex;
+   flex-direction: column;
+   min-height: 100%;
+   width: 100%;
+   overflow: clip;
+   font-family: "Proxima Nova",sans-serif;
+   /* margin: 0px auto; */
+   /* max-width: 1320px; */
+   max-width:100%;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 15px;
+   
+}
+.header__start{
+display: flex;
+/* 1 */
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+padding-top: 40px;
+padding-bottom: 24px;
+/* flex-grow: 1; */
+
+}
+.header__middle{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   /* включити в кынцы */
+   justify-content: space-between;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   background-color: #FFFFFF;
+   margin-bottom: 2px;
+   /* padding-left: 50px; */
+   /* padding-right:50px ; */
+}
+.header__end{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 24px;
+   padding-bottom:21px;
+   background-color: #FFFFFF;
+   
+}
+.header__start,.header__middle,.header__end{
+   padding-left: 100px;
+   padding-right:100px;
+}
+.page{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      flex-shrink: 0;
+      flex-basis: 0;
+   }
+.page__container{
+margin-bottom: 40px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.page__main-image{
+   /* display: flex; */
+   /* justify-content:center; */
+   /* flex-grow: 1; */
+   /* flex-direction: column; */
+   /* align-items: center; */
+   /* text-align: center; */
+   /* margin-left: 100px; */
+   /* margin-right: 100px; */
+   padding-top: 30px;
+   /* flex-shrink: 1; */
+   margin-bottom: 60px;
+}
+.page__paragraph{
+   /* margin: 0px auto; */
+   /* text-align: center; */
+   /* position: relative; */
+   /* top: 0; */
+   /* left: 0; */
+   /* display: flex; */
+   /* flex-direction: column; */
+   /* width: 100%; */
+   
+}
+/* Можна створити і через псевдоелементи,
+але при зменшенні екрану бокові стрілочки не зменшуються.
+ */
+/*  
+
+.page__paragraph::before{
+   content: "";
+   width: 60px;
+   height: 60px;
+   background: url('../img/icons/arrow-left.svg')0 0/60px 60px no-repeat;
+   position: absolute;
+   top: 50%;
+   left: 0%;
+ 
+}
+.page__paragraph::after{
+   content: "";
+   width: 60px;
+   height: 60px;
+   background: url('../img/icons/arrow-right.svg')0 0/60px 60px no-repeat;
+   position: absolute;
+   top: 50%;
+   right:0%;
+   
+page__list
+   */
+   .page__list{
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+   }
+      .list-images__head{ 
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+   }
+
+   .list-images__left-arrow{
+      position: absolute;
+      top: 48%;
+      left: 2%;
+      width: 4%;
+
+   }
+   .list-images__right-arrow{
+      position: absolute;
+      top: 48%;
+      right: 2%;
+      width: 4%;
+   }

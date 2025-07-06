@@ -1,0 +1,85 @@
+.list-menu__item{
+transition: color 0.3s;
+
+}
+.list-menu__item:hover .list-menu__link{
+   color: rgb(8, 232, 38);
+   text-decoration: underline;
+
+}
+.list-help__link{
+   transition: rotate 0.5s;
+}
+.list-help__link:hover{
+   rotate: 360deg;
+}
+.uk-language{
+   transition: color 0.3s;
+}
+.uk-language:hover{
+   color: rgb(8, 232, 38);
+}
+.yellow-button::before{
+   transition: rotate 0.5s;
+}
+.catalog:hover .yellow-button::before {
+rotate:900deg;
+}
+.container__searching-glass{
+   transition: transform 0.5s;
+}
+.container__searching-glass:hover{
+transform: scale(1.5) rotate(90deg);
+}
+.list-favour__item{
+   transition: background-color 0.3s;
+   border-radius: 50%;
+}
+.list-favour__item:hover{
+background-color: rgb(8, 232, 38);
+border-radius: 50%;
+}
+.list-offers__link{
+   transition: color 0.3s;
+}
+
+.list-offers__item:hover .list-offers__link{
+   color: rgb(8, 232, 38);
+}
+.list-goods__link{
+   transition: color 0.3s;
+}
+.list-goods__item:hover .list-goods__link{
+   color: rgb(8, 232, 38);
+}
+.product-card__categories:hover.product-card__categories::before{
+   background-color: hsl(95, 78%, 64%);
+   }
+.product-card__categories:hover.product-card__categories::after {
+   /* transform: rotate(-100deg); */
+   animation:turn-around 0.5s forwards;
+   background-color:white;
+   border-radius: 50%;
+}
+
+@keyframes turn-around{
+   1%{opacity: 1;}
+   100%{transform: rotate(-100deg);}
+}
+.signboard__secondary-title:hover{
+text-decoration: underline;
+}
+.most-popular-card__picture{
+   transition: transform 0.5s;
+   /* overflow: hidden; */
+}
+.most-popular-card__picture:hover{
+transform: scale(1.1);
+
+}
+.purchases-info__item:nth-child(1):hover{
+   background-color: chartreuse;
+}
+.purchases-info__item--basket:hover{
+   background-color:chartreuse;
+}

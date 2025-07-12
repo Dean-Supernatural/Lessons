@@ -21,7 +21,7 @@
    font-size: 16px;
    gap: 30px;
    color: #535353;
-   font-weight: 400;line-height: 187.5%; /* 30px/16 */
+   line-height: 187.5%; /* 30px/16 */
    
 }
 .help-center{
@@ -35,7 +35,6 @@ align-items: center;
 .help-consulting__item{
    color: #535353;
    font-size: 16px;
-   font-weight: 400;
    line-height: 187.5%; /* 30px/16 */
 }
 .help-consulting--margin{
@@ -128,18 +127,14 @@ margin-right: 22px;
    .container__main-form{
       position: relative;
    }
-   .container__goods-search{
    
-   }
    
    .container__searching-glass{
       position: absolute;
       top: 30%;
       right:3%;
    }
-   .call-center{
-
-   }
+   
    .call-center__schedule{
       display: flex;
       justify-content: center;
@@ -238,7 +233,6 @@ margin-right: 22px;
    }
    .title--margin{
       margin-bottom: 50px;
-      /* margin-left: 100px; */
    }
    .product-card{
       /* width: 250px; */
@@ -264,7 +258,6 @@ margin-right: 22px;
       border-radius: 8px;
       background-color: white;
       position: relative;
-      /* z-index: -2; */
       height: 300px;
       flex-basis: 250px;
       /* flex-shrink: 1; */
@@ -273,11 +266,10 @@ margin-right: 22px;
    .categories-card__header{
       display: flex;
       justify-content:space-between;
-      /* align-self: ; */
       /* column-gap: 24px; */
       /* row-gap: 24px; */
       font-size: 20px;
-      /* line-height: 1.40; */
+      line-height: 1.40;
       flex-grow: 1;
 
    }
@@ -294,7 +286,6 @@ margin-right: 22px;
       justify-content: center;
       align-items: center;
       position: absolute;
-      /* z-index: 0; */
       top: 0;
       left: 0;
    }
@@ -339,7 +330,6 @@ margin-right: 22px;
    /* flex-basis: 260px; */
    }
    .most-popular-goods--margin{
-      /* margin-left: 100px; */
       margin-bottom: 80px;
    }
    .signboard{
@@ -354,7 +344,7 @@ margin-right: 22px;
       margin-bottom: 39px;
    }
    .signboard__title{
-      display: flex;
+   display: flex;
    justify-content: center;
    align-items: center;
    }
@@ -432,16 +422,20 @@ margin-right: 22px;
       height: 20px;
       background: url(../img/icons/check-mark-in-circle.svg)no-repeat;
    }
+   
+   .price-list__item{
+   color: #2b2929;
+   font-size: 20px;
+   line-height: 140%; /* 28px/20 */
+   color: #2b2929;
+
+
+   }
    .price-list__item--red{
    color: #e03d3d;
    font-size: 15px;
    line-height: 146.666667%; /* 22px/15 */
    text-decoration: line-through;
-   }
-   .price-list__item:nth-child(2){
-   color: #2b2929;
-   font-size: 20px;
-   line-height: 140%; /* 28px/20 */
    }
    .most-popular-card__info{
       display: flex;
@@ -489,15 +483,9 @@ margin-right: 22px;
       display:flex;
       flex-wrap: wrap;
       flex-direction: column;
-      /* position: relative; */
-      /* top: 0; */
-      /* left: 0; */
-      /* width: 1400px; */
       /* justify-content: center; */
       /* align-items: center; */
-      /* margin-left: 100px; */
-      /* margin-right: 100px; */
-      /* width: 1400px; */
+      
    }
    .actions__roof{
       display: flex;

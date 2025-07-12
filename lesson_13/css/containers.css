@@ -65,7 +65,7 @@ padding-bottom: 24px;
 .page__container{
 margin-bottom: 40px;
 margin-left: 100px;
-margin-right: 100px;
+/* margin-right: 100px; */
 }
 .page__main-image{
    /* display: flex; */
@@ -75,7 +75,7 @@ margin-right: 100px;
    /* align-items: center; */
    /* text-align: center; */
    /* margin-left: 100px; */
-   /* margin-right: 100px; */
+   padding-right: 100px;
    padding-top: 30px;
    /* flex-shrink: 1; */
    margin-bottom: 60px;

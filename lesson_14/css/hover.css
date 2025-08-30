@@ -1,0 +1,42 @@
+/* Підключення анімації */
+@import url("animation.css");
+/*================================*/
+input[type="text"]:hover, input[type="email"]:hover{
+   border: 2px solid oklch(81.833% 0.14262 79.68);
+}
+input{
+   transition: border 0.5s, color 0.5s;
+
+}
+/* input[type="radio"]:hover{
+   border: 2px solid oklch(81.833% 0.14262 79.68);
+   border-radius: 50%;
+} */
+/* .input-payment:hover input{
+border: 2px solid oklch(81.833% 0.14262 79.68);
+} */
+.list-payment__text:hover.list-payment__text::before{
+   border: 3px solid oklch(81.833% 0.14262 79.68);
+   
+}
+.another-block__text:hover.another-block__text::before {
+border: 3px solid oklch(81.833% 0.14262 79.68);
+}
+
+.delivery-info__method:hover{
+background-color:#F8F8F8;
+border-radius: 8px;
+}
+.location__text:hover.location__text::before{
+   animation: turn-around 0.5s;
+}
+
+.list-delivery__item--icon img:hover{
+   animation: turn-around-2 0.5s ;
+}
+.location__link:hover{
+   background-color: rgb(247, 164, 10);
+}
+.input-submit-order:hover{
+   background-color: rgb(247, 164, 10);
+}

@@ -1,0 +1,30 @@
+
+.another-block__input-another:checked + .another-block__text::before {
+background: url("../img/icons/ok.svg")no-repeat center center #FFBC57;
+animation: button 0.8s;
+}
+
+.choose__input:checked + .choose__label--get-away::before{  
+   background: url("../img/icons/ok.svg")0 0/40px 40px no-repeat;
+   animation:button 0.5s;
+   }
+
+   .choose__input:checked + .choose__label--new-post::before{  
+   background: url("../img/icons/ok.svg")0 0/40px 40px no-repeat;
+   animation:button 0.5s;
+   }
+
+   .choose__input:checked + .choose__label--courier::before{
+   background: url("../img/icons/ok.svg")0 0/40px 40px no-repeat;
+   animation:button 0.5s;
+}
+
+.choose__input:checked + .choose__label {
+border-color: rgb(255, 188, 87);
+animation:button 0.3s;
+}
+.input-payment:checked + .list-payment__text::before{
+   background: url("../img/icons/ok.svg")center center no-repeat;
+   animation: button 0.8s;
+   
+}

@@ -1,0 +1,49 @@
+@keyframes turn-around{
+   0%{
+
+   }
+   100%{
+      transform: rotate(360deg);
+   }
+}
+@keyframes turn-around-2{
+   0%{
+
+      
+   }
+    50%{ /*transform: translate(10px,0); */
+   }
+   100%{
+
+      transform: rotateX(360deg);
+      /*  */
+   }
+}
+@keyframes button{
+   0%{
+      opacity: 0;
+
+      
+   }
+    50%{ /*transform: translate(10px,0); */
+   }
+   100%{
+
+      opacity: 1;;
+      /*  */
+   }
+}
+@keyframes wave{
+   0%{
+      transform: rotate(-20deg) translate(-8px,0);
+
+      
+   }
+    50%{ /*transform: translate(10px,0); */
+   }
+   100%{
+
+      transform: rotate(20deg) translate(8px,0);;
+
+   }
+}

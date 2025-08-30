@@ -1,0 +1,194 @@
+/* ============================= */
+/*Обнуляючий файл */
+@import url('reset.css');
+/* ==============================*/
+/*Підключення шрифтів*/
+@import url("fonts.css");
+/* ============================================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+/*==============================================================================*/
+.wrapper{
+      font-size:18px;
+      line-height: 1.5;
+      font-family: "Asimovian", 'Roboto', sans-serif;
+      color: #333;
+      /* max-width: 1200px; */
+      padding: 0 15px;
+}
+.input-color {
+      width: 100%;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+      box-sizing: border-box;
+}
+.input-time {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+      box-sizing: border-box;
+      font-size: 130px;
+}
+.input-textarea{
+      width: 80%;
+      height: 250px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+      /* box-sizing: border-box; */
+      font-size: 20px;
+      resize: vertical;
+      /* Використовується, щоб змінювалась лише висота
+      Ширина залишається незмінною */
+}
+.input-textarea::placeholder{
+      color:orange;
+      font-style: italic;
+}
+.label-textarea {
+      padding-bottom: 15px;
+      font-size: 18px;
+      color: #333;
+      /* text-align: center; */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+}
+h1{
+      padding: 15px 0;
+}
+.header--margin {
+      margin-bottom: 15px;
+}
+input[type="text"] {
+      width: 60%;
+      height: 40px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
+      /* box-sizing: border-box; */
+      display: block;
+}
+input[type="text"]:not(:last-child) {
+      margin-bottom: 15px;
+}
+
+input[type="radio"] {
+      height: 20px;
+      border-radius: 5px;
+      padding: 5px;
+}
+.input-submit{
+      margin-bottom: 10px;
+      margin-top: 10px;
+}
+.input-color,.input-date,.input-time,.input-email,.input-file,.input-hidden,.input-image,.input-month,.input-number,.input-password,.input-reset-password,.input-range,.input-search,.input-tel,.input-url,.input-week{
+      margin-bottom: 10px;
+}
+.page {
+}
+.label-text {
+}
+.input-text {
+}
+.label-button {
+}
+.input-button {
+}
+.label-mitsubishi {
+}
+.input-mitsubishi {
+}
+.label-toyota {
+}
+.input-toyota {
+}
+.label-autocomplete {
+}
+.input-autocomplete {
+}
+.label-submit {
+}
+.input-submit {
+}
+.label-reset {
+}
+.label-color {
+}
+.input-color {
+}
+.label-date {
+}
+.input-date {
+}
+.label-time {
+}
+.input-time {
+}
+.label-email {
+}
+.input-email {
+}
+.label-file {
+}
+.input-file {
+}
+.label-hidden {
+}
+.input-hidden {
+}
+.label-image {
+}
+.input-image {
+}
+.label-month {
+}
+.input-month {
+}
+.label-number {
+}
+.input-number {
+}
+.form-password {
+}
+.label-password {
+}
+.input-password {
+}
+.input-reset-password {
+}
+.label-select {
+}
+.input-select {
+}
+.label-range {
+}
+.input-range {
+}
+.label-form {
+}
+.input-search {
+}
+.label-tel {
+}
+.input-tel {
+}
+.label-url {
+}
+.input-url {
+}
+.label-week {
+}
+.input-week {
+}
+.label-textarea {
+}
+.input-textarea {
+}
+.footer {
+}

@@ -1,0 +1,74 @@
+.title--padding {
+   padding-top: 36px;
+}  
+.header--padding{
+   padding-bottom: 50px;
+   padding-left: 30px;
+   background-color: #F8F8F8;
+}
+.customs-info__section{
+   margin-bottom: 28px;
+}
+.customs-info__block-1{
+   /* margin-bottom: 31px; */
+   margin-bottom:20px;
+}
+.customs-info__block-2{
+   margin-bottom:20px ;
+}
+.location__list{
+   margin-right: 88px;
+}
+.customs-info__another-client{
+   padding-bottom: 27px;
+}
+.customs-info__wrapper::after{
+   /* content:""; */
+   /* border: 3px solid #f2f2f2; */
+   /* /* F8F8F8 * */
+   /* width: 120%; */
+   /* margin-left: -5%;  */
+}
+.delivery-info__location{
+   /* padding-bottom:30px ; */
+}
+.delivery-info__services{
+   margin-bottom: 28px;
+}
+.submit-button--padding{
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.commentary__wrapper{
+padding-right: 30px;
+padding-top: 30px;
+padding-left: 30px;
+}
+.payment__wrapper{
+   padding-bottom: 30px;
+
+}
+.form-title--padding{
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.form-title--background{
+   background-color: #F8F8F8;
+   border-radius: 8px;
+}
+.form-title__list{
+  
+}
+/* ================================= */
+.customs-info--padding,.delivery-info__wrapper,.payment__wrapper{ 
+border-bottom: 5px solid #F8F8F8;
+/* margin-right: -20%; */
+/* padding-bottom:  30px; */
+padding-left: 30px;
+}
+/* .delivery-info__wrapper{
+   border-bottom: 5px solid #F8F8F8;
+}
+.payment__wrapper{
+   border-bottom: 5px solid #F8F8F8;
+} */

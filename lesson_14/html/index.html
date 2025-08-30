@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Examples of forms</title>
+   <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header header--margin">
+         <h1>Приклади Форм</h1>
+      </header>
+      <main class="page">
+         <form action="#" method="post" enctype="multipart/form-data" class="form-main">
+            <label for="text-form" class="label-text">
+               <span>Просто текст</span>
+               <input type="text" name="text-info" id="text-form" placeholder="Напиши що-небудь" class="input-text">
+
+            </label>
+
+            <label for="button-form" class="label-button">
+               <span>Кнопка</span>
+               <input type="button" name="button" id="button-form" class="input-button">
+            </label>
+
+            <label for="mitsubishi-form" class="label-mitsubishi">
+               <span>Mitsubishi</span>
+               <input type="checkbox" name="car" value="mitsubishi" id="mitsubishi-form" class="input-mitsubishi">
+            </label>
+
+            <label for="toyota-form" class="label-toyota">
+               <span>Toyota</span>
+               <input type="checkbox" checked name="car" value="toyota" id="toyota-form" class="input-toyota">
+            </label>
+            <!-- =========================================================================== -->
+            <label for="autocomplete-form" class="label-autocomplete">
+               <span>Автозаповнення</span>
+               <input type="text" name="autocomplete" id="autocomplete-form" autocomplete="on" placeholder="Прізвище"
+                  required class="input-autocomplete" tabindex="5">
+               <input type="text" name="autocomplete" id="autocomplete-form" autocomplete="on" placeholder="Ім'я"
+                  required class="input-autocomplete" tabindex="4">
+               <input type="text" name="autocomplete" id="autocomplete-form" autocomplete="on" placeholder="По-батькові"
+                  required class="input-autocomplete" tabindex="1">
+               <input type="text" name="autocomplete" id="autocomplete-form" autocomplete="on"
+                  placeholder="Адреса відділеня" required class="input-autocomplete" tabindex="3">
+               <input type="text" name="autocomplete" id="autocomplete-form" autocomplete="on" placeholder="Номер"
+                  required class="input-autocomplete" tabindex="2">
+            </label>
+            <!-- ============================================================ -->
+            <label for="submit-form" class="label-submit">
+               <input type="submit" name="form-data" id="submit-form" value="Відправити"
+                  class="input-submit" tabindex="6">
+            </label>
+
+            <label for="reset-form" class="label-reset">
+               <input type="reset" name="reset-data" id="reset-form" value="Скинути"
+                  class="input-reset" tabindex="8">
+            </label>
+            <label for="color-form" class="label-color">
+               Select your favorite color:
+
+               <input type="color" name="color-data" id="color-form" autocomplete="on" value="#008000"
+                  class="input-color" tabindex="9">
+            </label>
+            <label for="date-form" class="label-date">
+               Select a date:
+
+               <input type="date" name="date" id="date-form" autocomplete="on" class="input-date" tabindex="10">
+            </label>
+
+            <label for="time-form" class="label-time">
+               Watch the time:
+
+               <input type="datetime-local" name="time" id="time-form" autocomplete="on" class="input-time">
+            </label>
+            <label for="email-form" class="label-email">
+               Write your email:
+
+               <input type="email" name="email-data" id="email-form" autocomplete="on" class="input-email" required>
+            </label>
+            <label for="file-form" class="label-file">
+               Upload your files:
+
+               <input type="file" name="file-data" id="file-form" autocomplete="on" class="input-file"
+                  accept="image/png, image/jpeg" multiple type="file">
+            </label>
+            <label for="hidden-form" class="label-hidden">
+               Hidden data:
+               <input type="hidden" name="token" value="hidden-data" id="hidden-form" class="input-hidden">
+            </label>
+            <br>
+            <label for="image-form" class="label-image">
+               Image-використовується, як кнопка для відправки форми:
+               <input type="image" name="picture" id="image-form" class="input-image"
+                  src="https://www.svgrepo.com/show/404946/check-mark-button.svg" alt="Submit" width="50" height="50">
+            </label>
+
+            <label for="bdaymonth" class="label-month">
+               Birthday (month and year):
+               <input type="month" name="bdaymonth" id="bdaymonth" class="input-month" value="2025-07" tabindex="11">
+            </label>
+            <label for="number-form" class="label-number">
+               Number input:
+               <input type="number" name="number-data" id="number-form" class="input-number" value="12" min="1"
+                  max="100" step="1" tabindex="12">
+            </label>
+
+
+         </form>
+         <form action="#" method="post" class="form-password">
+            <label for="password-form" class="label-password">
+               Write your password:
+               <input type="password" name="password-data" id="password-form" autocomplete="off" class="input-password"
+                  required>
+               <input type="reset" name="reset-password" id="password-form" value="Скинути" class="input-reset-password"
+                  tabindex="7">
+            </label>
+         </form>
+         <form action="#" method="post" enctype="multipart/form-data">
+            <label for="select-form" class="label-select">
+               Select your favorite car:
+               <select multiple name="cars" id="select-form" class="input-select">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="mercedes" selected>Mercedes</option>
+                  <option value="audi">Audi</option>
+               </select>
+            </label>
+            <br>
+            <label for="html">HTML
+               <!-- Для радіо-кнопок повинно бути одне й те саме ім'я -->
+               <input type="radio" id="html" name="fav_language" value="HTML">
+            </label><br>
+            <label for="css"> CSS
+               <input type="radio" id="css" name="fav_language" value="CSS">
+            </label><br>
+            <label for="javascript">JavaScript
+               <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            </label>
+            <label for="range-form" class="label-range">
+               Select a range:
+               <input type="range" name="range-data" id="range-form" class="input-range" min="0" max="100" value="30"
+                  step="1" tabindex="13">
+
+            </label>
+            <label for="search-form" class="label-form">
+               Search:
+               <input type="search" name="search-data" id="search-form" class="input-search" placeholder="Search..."
+                  tabindex="14">
+            </label>
+            <label for="tel-form" class="label-tel">
+               Phone number:
+               <input type="tel" name="phone-data" id="tel-form" autocomplete="on" class="input-tel"
+                  placeholder="+380XXXXXXXXX" required>
+            </label>
+            <label for="time-form" class="label-form">
+               Time:
+               <input type="time" name="time-data" id="time-form" class="input-time" placeholder="HH:MM" required>
+            </label>
+            <label for="url-form" class="label-url">
+               Write your website URL:
+               <input type="url" name="url-data" id="url-form" autocomplete="on" class="input-url"
+                  placeholder="https://example.com" required>
+            </label>
+            <label for="week-form" class="label-week">
+               <input type="week" name="week-data" id="week-form" autocomplete="on" class="input-week">
+            </label>
+
+         </form>
+         <label for="textarea-form" class="label-textarea">
+            Ввід багаторядкового тексту:
+            <br>
+            <textarea name="textarea-data" id="textarea-form" class="input-textarea"
+               placeholder="Я текстеріа. Заповніть мене, будь-ласка..." required>
+                  </textarea>
+         </label>
+      </main>
+      <footer class="footer"></footer>
+   </div>
+</body>
+
+</html>

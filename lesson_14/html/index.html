@@ -40,15 +40,16 @@
                <span>Автозаповнення</span>
                <input type="text" name="autocomplete" id="autocomplete-form" autocomplete="on" placeholder="Прізвище"
                   required class="input-autocomplete" tabindex="5">
-               <input type="text" name="autocomplete-2" autocomplete="on" placeholder="Ім'я"
-                  required class="input-autocomplete" tabindex="4">
-               <input type="text" name="autocomplete-3" autocomplete="on" placeholder="По-батькові"
-                  required class="input-autocomplete" tabindex="1">
-               <input type="text" name="autocomplete-4" autocomplete="on"
-                  placeholder="Адреса відділеня" required class="input-autocomplete" tabindex="3">
-               <input type="text" name="autocomplete-5" autocomplete="on" placeholder="Номер"
-                  required class="input-autocomplete-6" tabindex="2">
             </label>
+            <input type="text" name="autocomplete-2" autocomplete="on" placeholder="Ім'я" required
+               class="input-autocomplete" tabindex="4">
+            <input type="text" name="autocomplete-3" autocomplete="on" placeholder="По-батькові" required
+               class="input-autocomplete" tabindex="1">
+            <input type="text" name="autocomplete-4" autocomplete="on" placeholder="Адреса відділеня" required
+               class="input-autocomplete" tabindex="3">
+            <input type="text" name="autocomplete-5" autocomplete="on" placeholder="Номер" required
+               class="input-autocomplete" tabindex="2">
+
             <!-- ============================================================ -->
             <label for="submit-form" class="label-submit">
                <input type="submit" name="form-data" id="submit-form" value="Відправити" class="input-submit"
@@ -83,12 +84,12 @@
             <label for="file-form" class="label-file">
                Upload your files:
 
-               <input type="file" name="file-data" id="file-form" autocomplete="on" class="input-file"
-                  accept="image/png, image/jpeg" multiple type="file">
+               <input type="file" name="file-data" id="file-form" class="input-file"
+                  accept="image/png, image/jpeg" multiple>
             </label>
-            <label for="hidden-form" class="label-hidden">
+            <label for="#" class="label-hidden">
                Hidden data:
-               <input type="hidden" name="token" value="hidden-data" id="hidden-form" class="input-hidden">
+               <input type="hidden" name="token" value="hidden-data" class="input-hidden">
             </label>
             <br>
             <label for="image-form" class="label-image">
@@ -110,13 +111,16 @@
 
          </form>
          <form action="#" method="post" class="form-password">
-            <label for="password-form" class="label-password">
+            <label for="password-form" class="password-label">
                Write your password:
                <input type="password" name="password-data" id="password-form" autocomplete="off" class="input-password"
                   required>
-               <input type="reset" name="reset-password" id="password-form" value="Скинути" class="input-reset-password"
-                  tabindex="7">
             </label>
+            <label for="password-reset">
+            <input type="reset" name="reset-password" id="password-reset" value="Скинути" class="input-reset-password"
+               tabindex="7">
+               </label>
+
          </form>
          <form action="#" method="post" enctype="multipart/form-data">
             <label for="select-form" class="label-select">
@@ -157,7 +161,7 @@
             </label>
             <label for="time-form" class="label-time-form">
                Time:
-               <input type="time" name="time-data" id="time-form" class="input-time" placeholder="HH:MM" required>
+               <input type="time" name="time-data" id="time-form" class="input-time" required>
             </label>
             <label for="url-form" class="label-url">
                Write your website URL:

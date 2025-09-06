@@ -84,13 +84,13 @@
             <label for="file-form" class="label-file">
                Upload your files:
 
-               <input type="file" name="file-data" id="file-form" class="input-file"
-                  accept="image/png, image/jpeg" multiple>
+               <input type="file" name="file-data" id="file-form" class="input-file" accept="image/png, image/jpeg"
+                  multiple>
             </label>
-            <label for="#" class="label-hidden">
-               Hidden data:
-               <input type="hidden" name="token" value="hidden-data" class="input-hidden">
-            </label>
+            <label for="hidden-form" class="label-hidden">
+               Hidden data: </label>
+            <input type="hidden" name="token" value="hidden-data" class="input-hidden" id="hidden-form">
+
             <br>
             <label for="image-form" class="label-image">
                Image-використовується, як кнопка для відправки форми:
@@ -117,9 +117,9 @@
                   required>
             </label>
             <label for="password-reset">
-            <input type="reset" name="reset-password" id="password-reset" value="Скинути" class="input-reset-password"
-               tabindex="7">
-               </label>
+               <input type="reset" name="reset-password" id="password-reset" value="Скинути"
+                  class="input-reset-password" tabindex="7">
+            </label>
 
          </form>
          <form action="#" method="post" enctype="multipart/form-data">
@@ -159,9 +159,9 @@
                <input type="tel" name="phone-data" id="tel-form" autocomplete="on" class="input-tel"
                   placeholder="+380XXXXXXXXX" required>
             </label>
-            <label for="time-form" class="label-time-form">
+            <label for="timing-form" class="label-time-form">
                Time:
-               <input type="time" name="time-data" id="time-form" class="input-time" required>
+               <input type="time" name="time-data" id="timing-form" class="input-time" required>
             </label>
             <label for="url-form" class="label-url">
                Write your website URL:

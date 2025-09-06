@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
    <meta charset="UTF-8">
@@ -20,7 +20,8 @@
                   <!-- Це по суті тайтл. Його треба робити усюди однаковим -->
                   <ul class="form-title__list list-delivery">
                      <li class="list-delivery__item list-delivery__item--icon">
-                        <img src="../img/icons/info.svg" alt="Буква і в середині кола намальована білим контуром"
+                        <img src="../img/icons/info.svg"
+                           alt="Буква і в середині помаранчевого кола намальована білим контуром"
                            class="list-delivery__picture">
                      </li>
                      <li class="list-delivery__item list-delivery__item--title">
@@ -34,15 +35,15 @@
                   <div class="customs-info__block-1 block-1">
                      <label for="surname-form" class="block-1__surname">
                         <input type="text" name="surname" id="surname-form" placeholder="Прізвище" required
-                           class="block-1__input-surname">
+                           class="block-1__input-surname" tabindex="1">
                      </label>
                      <label for="name-form" class="block-1__name">
                         <input type="text" name="name" id="name-form" placeholder="Ім'я" required
-                           class="block-1__input-name">
+                           class="block-1__input-name" tabindex="2">
                      </label>
                      <label for="patronymic-form" class="block-1__patronymic">
                         <input type="text" name="patronymic" id="patronymic-form" placeholder="По-батькові" required
-                           class="block-1__input-patronymic">
+                           class="block-1__input-patronymic" tabindex="3">
                      </label>
                   </div>
 
@@ -50,17 +51,17 @@
                   <div class="customs-info__block-2 block-2">
                      <label for="phone-number" class="block-2__phone">
                         <input type="text" name="phone-number" id="phone-number" placeholder="Номер телефону" required
-                           class="block-2__input-phone">
+                           class="block-2__input-phone" tabindex="4">
                      </label>
                      <label for="email-form" class="block-2__email">
                         <input type="email" name="email" id="email-form" placeholder="Електронна пошта" required
-                           class="block-2__input-email">
+                           class="block-2__input-email" tabindex="5">
                   </div>
                   <div class="customs-info__another-client">
                      <label for="another-client-form" class="customs-info__another another-block">
                         <input type="checkbox" name="another-human" id="another-client-form"
                            class="another-block__input-another">
-                        <span class="another-block__text">
+                        <span class="another-block__text" tabindex="6">
                            Отримуватиме замовлення інша людина
                         </span>
                      </label>
@@ -75,7 +76,8 @@
                      <!-- Це по суті тайтл. Його треба робити усюди однаковим -->
                      <ul class="form-title__list list-delivery">
                         <li class="list-delivery__item list-delivery__item--icon">
-                           <img src="../img/icons/car.svg" alt="Грузова машина намальована білим контуром"
+                           <img src="../img/icons/car.svg"
+                              alt="Вантажна машина в середині помаранчевого кола намальована білим контуром"
                               class="list-delivery__picture">
                         </li>
                         <li class="list-delivery__item list-delivery__item--title">
@@ -85,7 +87,7 @@
                   </div>
                   <div class="delivery-info__services">
                      <ul class="delivery-info__types">
-                        <li class="delivery-info__method choose">
+                        <li class="delivery-info__method choose" tabindex="7">
                            <input class="choose__input" id="get-away" type="radio" name="delivery" value="get-away"
                               checked>
                            <label for="get-away" class="choose__label choose__label--get-away">
@@ -93,17 +95,17 @@
                               <span class="choose__price">Бесплатно</span>
                            </label>
                         </li>
-                        <li class="delivery-info__method choose">
+                        <li class="delivery-info__method choose" tabindex="8">
                            <input class="choose__input" id="new-post" type="radio" name="delivery"
-                              value="new-post-delivery">
+                              value="new-post-delivery" tabindex="8">
                            <label for="new-post" class="choose__label choose__label--new-post">
                               <span class="choose__title">Доставка Нова Пошта</span>
                               <span class="choose__price">≈ від 500 грн</span>
                            </label>
                         </li>
-                        <li class="delivery-info__method choose">
+                        <li class="delivery-info__method choose" tabindex="9">
                            <input class="choose__input" id="courier" type="radio" name="delivery"
-                              value="courier-delivery">
+                              value="courier-delivery" tabindex="9">
                            <label for="courier" class="choose__label choose__label--courier">
                               <span class="choose__title">Доставка кур'єром</span>
                               <span class="choose__price">≈ від 200 грн</span>
@@ -124,7 +126,7 @@
                         </ul>
                         <div class="location__button">
                            <a href="https://www.google.com/maps/place/%D0%98%D0%B7%D1%8F%D1%81%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%BF%D0%B5%D1%80.,+52,+%D0%9A%D0%B8%D0%B5%D0%B2,+03148/@50.3944948,30.4226319,16.25z/data=!4m6!3m5!1s0x40d4c96eab895239:0x4ecc1e8234c891d8!8m2!3d50.3965211!4d30.424082!16s%2Fg%2F11c4f61k49?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D"
-                              class="location__link" target="blank">
+                              class="location__link" target="blank" tabindex="10">
                               <span class="location__text">На мапі</span>
                            </a>
                         </div>
@@ -143,7 +145,8 @@
                      <!-- Це по суті тайтл. Його треба робити усюди однаковим -->
                      <ul class="form-title__list list-delivery">
                         <li class="list-delivery__item list-delivery__item--icon">
-                           <img src="../img/icons/wallet.svg" alt="Буква і в середині кола намальована білим контуром"
+                           <img src="../img/icons/wallet.svg"
+                              alt="Гаманець в середині помаранчевого кола намальований білим контуром"
                               class="list-delivery__picture">
                         </li>
                         <li class="list-delivery__item list-delivery__item--title">
@@ -158,7 +161,7 @@
                               <input type="radio" name="money" id="cash" class="input-payment">
 
 
-                              <span class="list-payment__text">
+                              <span class="list-payment__text" tabindex="11">
                                  Готівкою при отриманні (Післясплата)</span>
                            </label>
                         </li>
@@ -166,10 +169,12 @@
                         <li class="list-payment__item list-payment__item--cards">
                            <label for="card" class="label-payment">
                               <input type="radio" name="money" id="card" class="input-payment" checked>
-                              <span class="list-payment__text">Оплата карткою на сайті
+                              <span class="list-payment__text" tabindex="12">Оплата карткою на сайті
                                  <span class="list-payment__bank-icons">
-                                    <img src="../img/icons/mastercard.svg" alt="">
-                                    <img src="../img/icons/visa.svg" alt="">
+                                    <img src="../img/icons/mastercard.svg"
+                                       alt="Значок Мастеркард, два кола:червоне і жовте, що частково накладаються">
+                                    <img src="../img/icons/visa.svg"
+                                       alt="Напис Віза синім кольором великими латинськими літерами">
                                  </span>
                               </span>
 
@@ -180,9 +185,10 @@
                         <li class="list-payment__item list-payment__item--privat-pay">
                            <label for="privat-pay" class="label-payment">
                               <input type="radio" name="money" id="privat-pay" class="input-payment">
-                              <span class="list-payment__text">Privat Pay
+                              <span class="list-payment__text" tabindex="13">Privat Pay
                                  <span class="list-payment__bank-icons">
-                                    <img src="../img/icons/privat-pay.svg" alt="">
+                                    <img src="../img/icons/privat-pay.svg"
+                                       alt="Значок ПриватПей 24: цифра 24 змальована в середині зеленого кола">
 
                                  </span>
                               </span>
@@ -193,15 +199,16 @@
                         <li class="list-payment__item">
                            <label for="krovato-credit" class="label-payment">
                               <input type="radio" name="money" id="krovato-credit" class="input-payment">
-                              <span class="list-payment__text">Кредит від Krovato</span>
+                              <span class="list-payment__text" tabindex="14">Кредит від Krovato</span>
                            </label>
                         </li>
                         <li class="list-payment__item list-payment__item--privat-parts">
                            <label for="privat-parts" class="label-payment">
                               <input type="radio" name="money" id="privat-parts" class="input-payment">
-                              <span class="list-payment__text">Оплата частинами ПриватБанк
+                              <span class="list-payment__text" tabindex="15">Оплата частинами ПриватБанк
                                  <span class="list-payment__bank-icons">
-                                    <img src="../img/icons/credit.svg" alt="">
+                                    <img src="../img/icons/credit.svg"
+                                       alt="Значок оплати частинами:зеленим кольором змальована частка щомісячної оплати ">
                                     <!-- </a> -->
 
                                  </span>
@@ -213,7 +220,7 @@
                         <li class="list-payment__item list-payment__item--mono-parts">
                            <label for="mono-parts" class="label-payment">
                               <input type="radio" name="money" id="mono-parts" class="input-payment">
-                              <span class="list-payment__text">Оплата частинами МоноБанк
+                              <span class="list-payment__text" tabindex="16">Оплата частинами МоноБанк
                                  <span class="list-payment__bank-icons">
                                     <img src="../img/icons/mono.svg" alt="">
                                  </span>
@@ -231,7 +238,8 @@
                         <!-- Це по суті тайтл. Його треба робити усюди однаковим -->
                         <ul class="form-title__list list-delivery">
                            <li class="list-delivery__item list-delivery__item--icon">
-                              <img src="../img/icons/wh-ok.svg" alt="Буква і в середині кола намальована білим контуром"
+                              <img src="../img/icons/wh-ok.svg"
+                                 alt="Позначка ок в середині помаранчевого кола намальована білим контуром"
                                  class="list-delivery__picture">
                            </li>
                            <li class="list-delivery__item list-delivery__item--title">
@@ -239,14 +247,13 @@
                         </ul>
                      </div>
 
-                     <textarea name="commentary-form" id="comments" placeholder="Ваш коментар"
-                        class="input-commentary"></textarea>
+                     <textarea name="commentary-form" id="comments" placeholder="Ваш коментар" class="input-commentary"
+                        tabindex="17"></textarea>
                   </div>
-                  <div class="submit-button submit-button--padding">
-                     <label for="submit-order">
-                        <input type="submit" name="subm
-                     it-order" id="submit-order" value="Оформити замовлення" class="input-submit-order">
-                     </label>
+                  <div class="confirmation confirmation--padding">
+                     <button type="submit" class="confirmation__button" tabindex="17">
+                        <span class="confirmation__order">Оформити замовлення</span>
+                     </button>
                   </div>
                </div>
 

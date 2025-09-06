@@ -1,7 +1,7 @@
 
 .another-block__input-another:checked + .another-block__text::before {
 background: url("../img/icons/ok.svg")no-repeat center center #FFBC57;
-animation: button 0.8s;
+animation: button 0.5s linear;
 }
 
 .choose__input:checked + .choose__label--get-away::before{  

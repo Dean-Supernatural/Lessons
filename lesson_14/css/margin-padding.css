@@ -35,7 +35,7 @@
 .delivery-info__services{
    margin-bottom: 28px;
 }
-.submit-button--padding{
+.confirmation--padding{
    padding-top: 30px;
    padding-bottom: 30px;
 }
@@ -56,19 +56,10 @@ padding-left: 30px;
    background-color: #F8F8F8;
    border-radius: 8px;
 }
-.form-title__list{
-  
-}
+
 /* ================================= */
 .customs-info--padding,.delivery-info__wrapper,.payment__wrapper{ 
 border-bottom: 5px solid #F8F8F8;
-/* margin-right: -20%; */
-/* padding-bottom:  30px; */
+padding-right: 30px;
 padding-left: 30px;
 }
-/* .delivery-info__wrapper{
-   border-bottom: 5px solid #F8F8F8;
-}
-.payment__wrapper{
-   border-bottom: 5px solid #F8F8F8;
-} */

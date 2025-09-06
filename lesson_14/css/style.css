@@ -87,108 +87,40 @@ input[type="radio"] {
       margin-bottom: 10px;
       margin-top: 10px;
 }
-.input-color,.input-date,.input-time,.input-email,.input-file,.input-hidden,.input-image,.input-month,.input-number,.input-password,.input-reset-password,.input-range,.input-search,.input-tel,.input-url,.input-week{
+.input-email{
+      width: 60%;
+      display: block;
+}
+.input-reset,.input-color,.input-date,.input-time,.input-email,.input-file,.input-hidden,.input-image,.input-month,.input-number,.input-password,.input-reset-password,.input-range,.input-search,.input-tel,.input-url,.input-week{
       margin-bottom: 10px;
+      /* padding-bottom:10px ; */
+} 
+/* ============================================================================ */
+
+.button{
+      padding:15px 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
 }
-.page {
+.button__link{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 80px;
+      background-color: #d41a8a;
+      border-radius: 8px;
+      cursor: pointer;
+      
+      transition: background-color 0.3s;
 }
-.label-text {
+.button__text{
+      color: #fff;
+      font-size: 30px;
+      
 }
-.input-text {
-}
-.label-button {
-}
-.input-button {
-}
-.label-mitsubishi {
-}
-.input-mitsubishi {
-}
-.label-toyota {
-}
-.input-toyota {
-}
-.label-autocomplete {
-}
-.input-autocomplete {
-}
-.label-submit {
-}
-.input-submit {
-}
-.label-reset {
-}
-.label-color {
-}
-.input-color {
-}
-.label-date {
-}
-.input-date {
-}
-.label-time {
-}
-.input-time {
-}
-.label-email {
-}
-.input-email {
-}
-.label-file {
-}
-.input-file {
-}
-.label-hidden {
-}
-.input-hidden {
-}
-.label-image {
-}
-.input-image {
-}
-.label-month {
-}
-.input-month {
-}
-.label-number {
-}
-.input-number {
-}
-.form-password {
-}
-.label-password {
-}
-.input-password {
-}
-.input-reset-password {
-}
-.label-select {
-}
-.input-select {
-}
-.label-range {
-}
-.input-range {
-}
-.label-form {
-}
-.input-search {
-}
-.label-tel {
-}
-.input-tel {
-}
-.label-url {
-}
-.input-url {
-}
-.label-week {
-}
-.input-week {
-}
-.label-textarea {
-}
-.input-textarea {
-}
-.footer {
+.button__link:hover{
+background-color: #ea4da8;
 }

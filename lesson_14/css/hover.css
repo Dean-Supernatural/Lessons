@@ -2,7 +2,7 @@
 @import url("animation.css");
 /*================================*/
 input[type="text"]:hover, input[type="email"]:hover{
-   border: 2px solid oklch(81.833% 0.14262 79.68);
+   border: 2px solid  rgb(244, 184, 72);
    transition: all 0.3s;
 }
 input{
@@ -10,12 +10,12 @@ input{
 
 }
 .list-payment__text:hover.list-payment__text::before{
-   border: 3px solid oklch(81.833% 0.14262 79.68);
+   border: 3px solid  rgb(244, 184, 72);
    transition: all 0.3s;
    
 }
 .another-block__text:hover.another-block__text::before {
-border: 3px solid oklch(81.833% 0.14262 79.68);
+border: 3px solid rgb(244, 184, 72);
 transition: all 0.3s;
 }
 
